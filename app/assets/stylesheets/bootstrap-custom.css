@@ -13,7 +13,8 @@ h2, h3 {
 
 ul.icons-ul, 
 p, 
-address {
+address,
+cite {
 	padding-left:  500px;
 	padding-right: 500px;
 	font-family: Georgia, Serif;
