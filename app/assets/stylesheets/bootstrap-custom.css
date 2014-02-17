@@ -75,8 +75,6 @@ address {
 
 .jumbotron2 {
 	height: 600px;
-	/*margin-top: -15px;*/
-	/*background-color: green;*/
 	background-image: url(banner.png);
 	background-size:100%;
     background-repeat:no-repeat;
