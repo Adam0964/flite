@@ -1,0 +1,236 @@
+/* **********************************************************************
+*
+*  fflietStylesheet
+*
+*   Kodefuge, Inc 01/05/2014
+*
+**************************************************************************/
+h2, h3 {
+	font-family: Georgia;
+	text-align: center;
+	padding-top: 75px;
+}
+
+ul.icons-ul, 
+p, 
+address {
+	padding-left:  500px;
+	padding-right: 500px;
+	font-family: Georgia, Serif;
+	font-size: 20px;
+}
+
+.jumbotron {
+	height: 160px;
+	margin-top: -15px;
+	/*background-color: blue;*/
+	overflow: visible;
+}
+
+.jumbotron table {
+	margin-left: 850px;
+	margin-top: 40px;
+}
+
+.jumbotron a {
+	padding-left: 20px;
+	font-family: 'Bank Gothic';
+	color: #353535;
+	text-decoration: none;
+	/*border-radius: 50%;
+	width: 80px;
+	height: 60px; 
+	border: solid 3px white;*/
+}
+
+.jumbotron a:hover {
+	text-decoration: none;
+	color: 005580;
+}
+
+
+.jumbotron table a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+/*.jumbotron a:active {
+	text-decoration: none;
+	color: #005580;
+}*/
+
+.col-md-12 h1 {
+	/*margin-left: 1100px;*/
+	padding-top: 45px;
+	font-family: 'Bank Gothic';
+	color: #806517; 
+	letter-spacing: 7px;
+	text-align: center;
+}
+
+.jumbotron2 {
+	height: 600px;
+	/*margin-top: -15px;*/
+	/*background-color: green;*/
+	background-image: url(banner2.jpg);
+	background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.jumbotron2 p {
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 40px;
+	color: white;
+	font-size:18px;
+	font-family: Georgia;
+	line-height: 2.3;
+	text-align: justify;
+}
+
+.jumbotron3 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.jumbotron3 img {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 100px;
+	padding: 15px;
+	position: relative;
+}
+
+
+.jumbotron4 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.jumbotron4 img {
+	margin-left: 100px;
+	margin-top: 350px;
+	padding: 15px;
+}
+
+
+.jumbotron5 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.jumbotron5 img {
+	margin-left: 100px;
+	margin-top: 350px;
+	padding: 15px;
+}
+
+
+.jumbotron6 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.jumbotron6 img {
+	margin-left: 100px;
+	margin-top: 350px;
+	padding: 15px;
+}
+
+.jumbotron7 {
+	height: 900px;
+	margin-top: -15px;
+	background-color: white;
+}
+
+.jumbotron7 img {
+	margin-left: 100px;
+	margin-top: 350px;
+	padding: 15px;
+}
+
+.jumbotron7 p {
+	-moz-column-count2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+    text-align: justify;
+
+    -moz-column-gap:    50px; /* Firefox */
+    -webkit-column-gap: 50px; /* Safari and Chrome */
+    column-gap:         50px;
+}
+
+
+.jumbotron8 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: white;
+}
+
+.jumbotron8 img {
+	margin-left: 100px;
+	margin-top: 350px;
+	padding: 15px;
+}
+
+.jumbotron9 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.jumbotron11 {
+	height: 200px;
+	margin-top: -15px;
+	margin-bottom: 100px;
+	font-family: 'Bank Gothic';
+	color: white;
+	background-color: #D14841;
+}
+
+.jumbotron12 {
+	height: 800px;
+	margin-top: -15px;
+	background-color: white;
+}
+
+/* footer */
+.jumbotron10 {
+	height: 220px;
+	margin-top: -15px;
+	background-color: #15317E;
+}
+
+#arrow {
+  width: 80px;
+  height:80px;
+  margin-left: 1230px;
+  margin-top: 40px;
+  /*border: solid 1px #43c83c;*/
+  text-align: center;
+  /*padding-top: -17px;*/
+  position: relative;
+  color: white;
+  background-color: #A52A2A;
+  -webkit-border-radius: 50%;
+  -moz-border-radius:    50%;
+  border-radius:         50%;
+}
+
+#arrow img {
+   /*margin-left: 15px;*/
+   margin-top: 15px;
+   position: relative;
+}
+
+
+
+/**********************************
+* 
+*  @media queries 
+*
+***********************************/
