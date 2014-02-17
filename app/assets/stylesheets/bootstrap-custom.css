@@ -73,9 +73,10 @@ address {
 	text-align: center;
 }
 
-.jumbotron2 {
-	height: 600px;
-	background-image: url(banner.png);
+.jumbotron2 img {
+	height: 1200px;
+	width: 2600px;
+	/*background-image: url(banner.png);*/
 	background-size:100%;
     background-repeat:no-repeat;
 }
@@ -83,8 +84,8 @@ address {
 .jumbotron2 p {
 	margin-left: 500px;
 	margin-right: 500px;
-	padding-top: 40px;
-	color: white;
+	padding-top: -240px;
+	color: black;
 	font-size:18px;
 	font-family: Georgia;
 	line-height: 2.3;
