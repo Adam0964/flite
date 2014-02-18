@@ -25,6 +25,8 @@
     / Size should be 32 x 32 pixels
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
     = javascript_include_tag "application"
+
+    = stylesheet_link_tag   "http://fonts.googleapis.com/css?family=Lato:400" 
   %body
 
     = render :partial => 'layouts/header'

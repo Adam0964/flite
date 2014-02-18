@@ -77,12 +77,15 @@
   %div
   .col-md-12 
 
-  %p Private FLITE is a full-service private jet charter company that offers the personal service and reliability of fractional ownership with the flexibility, simplicity and choice of on-demand charter. The company services the globe with a full suite of air charter and related services.
+  / %p Private FLITE is a full-service private jet charter company that offers the personal service and reliability of fractional ownership with the flexibility, simplicity and choice of on-demand charter. The company services the globe with a full suite of air charter and related services.
 
-  %p While some private jet companies make claims like, “Any jet, Any time, Any place, with access to 4,000 jets,” we take a contrarian approach: we focus on finding the right solution at the best value, recognizing that a superlative flight experience extends well beyond finding the least expensive aircraft.
-
-  %h3 Customized Jet Charter Experience
-  %br
+  / %p While some private jet companies make claims like, “Any jet, Any time, Any place, with access to 4,000 jets,” we take a contrarian approach: we focus on finding the right solution at the best value, recognizing that a superlative flight experience extends well beyond finding the least expensive aircraft.
+  .flex
+    %h3 
+      Customized Jet Charter Experience
+      %br
+      %hr
+    %br
   %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing on a wide selection of quality, late-model aircraft. From your first conversation with our firm, we take great pains to understand your specific needs and preferences in order to consistently deliver flawless experience after flawless experience.
 
   %p Two established aviation entrepreneurs, Justin Sullivan and David M. Tait, are the driving force behind Private FLITE.
@@ -117,36 +120,86 @@
   %p For example, for many clients, flying with ARG/US Gold and Platinum-rated operators is perfectly adequate. However, some clients demand an ARG/US Platinum rating, Wyvern Wingman status, or other safety standards based on their level of comfort and sophistication.
   %p At Private FLITE we maintain detailed account profiles for each client, documenting client-specific safety standards in order to present only these prerequisite flight options.
   %h3 Real Time Auditing
-  %br
-  %ul.icons-ul
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    FLITE clients may, at any time, ask to see a TripCHEQ report prior to travel.
-    %br
-    %br
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    TripCHEQ is an ARG/US offering that audits the specific parameters of every trip. In order to pass a TripCHEQ
-    %br
-    %br
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    All pilots receive background checks by ARG/US before they are approved.
-    %br
-    %br
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    Flight time (total time, time in type, pilot in command) must meet ARG/US and Private FLITE minimums.
-    %br
-    %br
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    Pilots are checked prior to every flight for experience and FAA enforcement actions.
-    %br
-    %br
-    %i.icon-flag.icon-2x.pull-left
-    \&nbsp
-    Aircraft records are checked prior to every flight to ensure that FAA data shows this aircraft on the certificate of the selected air carrier.
+
+
+  / %table
+  / %tr
+  / %td
+  / %span 
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}FLITE clients may, at any time, ask to see a TripCHEQ report prior to travel.
+
+  / %tr
+  / %span 
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}TripCHEQ is an ARG/US offering that audits the specific parameters of every trip. 
+  
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}In order to pass a TripCHEQ, all pilots receive background checks by ARG/US before they are approved.
+  / %tr
+  / %span 
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}Flight time (total time, time in type, pilot in command) must meet ARG/US and Private FLITE minimums.
+ 
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}Pilots are checked prior to every flight for experience and FAA enforcement actions.
+  / %tr
+  / %span 
+  /   = image_tag ('check.png'), :size => '60x60' 
+  /   \&nbsp
+  /   %font{size: "4"}Aircraft records are checked prior to every flight to ensure that FAA data shows this aircraft on the certificate of the selected air carrier.
+
+  #flexer
+    .flex1
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40'
+        \&nbsp&nbsp
+        %font{size: "4"}FLITE clients may, at any time, ask us to see a TripCHEQ report prior to any short or long trip.
+      %hr
+    .flex2
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40' 
+        \&nbsp&nbsp
+        %font{size: "4"}TripCHEQ is an ARG/US offering that audits the specific parameters of every trip.
+      %hr
+  #flexer
+    .flex3
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40' 
+        \&nbsp&nbsp 
+        %font{size: "4"}In order to pass a TripCHEQ, all pilots receive background checks by ARG/US before they are approved.
+      %hr
+    .flex4
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40' 
+        \&nbsp&nbsp
+        %font{size: "4"}Flight time (total time, time in type, pilot in command) must meet ARG/US and Private FLITE minimums.
+      %hr
+  #flexer
+    .flex5
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40' 
+        \&nbsp&nbsp
+        %font{size: "4"}Pilots are checked prior to every flight for experience and FAA enforcement actions.
+      %hr
+    .flex6
+      %span
+        .flex-info
+          = image_tag ('check.png'), :size => '40x40' 
+        \&nbsp&nbsp
+        %font{size: "4"}Aircraft records are checked prior to every flight to ensure that FAA data shows this aircraft on the certificate of the selected air carrier.
+      %hr
+
 
 .jumbotron11
   %div
@@ -177,17 +230,15 @@
 
   %h3 Corporate Office:
   %br
+
   %address Private FLITE Worldwide, LLC
-
   %address 25 Accord Park Drive
-
   %address Suite 100 
-
   %address Rockland, MA 02370
 
-  %address Phone: 877.322.5387Fax:    
-  %address 781.987.7217Email:   
-  %address info@Private-FLITE.com
+  %address Phone: 877.322.5387   
+  %address Fax:  781.987.7217   
+  %address Email: info@Private-FLITE.com
   %h3 Hours of Operation:
   %br
   %cite 
