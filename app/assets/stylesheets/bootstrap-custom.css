@@ -1,10 +1,13 @@
 /* **********************************************************************
 *
-*  fflietStylesheet
+*  flietStylesheet
 *
 *   Kodefuge, Inc 01/05/2014
 *
 **************************************************************************/
+body {
+	overflow-x: hidden;
+}
 h2, h3 {
 	font-family: 'Lato', Serif;
 	color: #D14841;
@@ -30,35 +33,30 @@ address {
 .jumbotron {
 	height: 160px;
 	margin-top: -15px;
-	/*background-color: blue;*/
-	overflow: visible;
 }
 
-.jumbotron table {
-	margin-left: 850px;
-	margin-top: 40px;
+table {
+	margin-top: -20px;
+	margin-left: auto;
+	overflow-x: hidden;
 }
 
-.jumbotron a {
+table a {
+	padding-right: 20px;
 	padding-left: 20px;
 	font-family: 'Bank Gothic';
 	color: #353535;
 	text-decoration: none;
-	/*border-radius: 50%;
-	width: 80px;
-	height: 60px; 
-	border: solid 3px white;*/
 }
 
-.jumbotron a:hover {
+/*.jumbotron a:hover {
 	text-decoration: none;
 	color: 005580;
-}
+}*/
 
-
-.jumbotron table a:hover {
+table a:hover {
 	text-decoration: none;
-	color: blue;
+	color: #D14841;
 }
 
 /*.jumbotron a:active {
@@ -67,19 +65,22 @@ address {
 }*/
 
 .col-md-12 h1 {
-	/*margin-left: 1100px;*/
 	padding-top: 45px;
 	font-family: 'Bank Gothic';
-	color: #806517; 
+	color: rgb(0, 66, 110);
 	letter-spacing: 7px;
 	text-align: center;
 }
 
-.jumbotron2 img {
+.col-md-12 h1 a:hover {
+	text-decoration: none;
+}
+
+.jumbotron2 {
+	width:  2600px;
 	height: 1200px;
-	width: 2600px;
-	/*background-image: url(banner.png);*/
-	background-size:100%;
+	background-image: url(banner.png);
+	background-size: contain;
     background-repeat:no-repeat;
 }
 
@@ -218,11 +219,12 @@ address {
    text-align: center;
 }
 
-.jumbotron7 h3 {
+.flex h1 {
 	/*word-break: break-all;*/
 	font-size: 77px;
 	line-height: 90px;
 	font-weight: 400; 
+	color: #D14841;
 }
 
 .jumbotron7  p,
@@ -233,7 +235,7 @@ address {
 
 
 .jumbotron9 table {
-	margin-left: 500px;
+	margin-left:  500px;
 	margin-right: 500px;
 	text-align: justify;
 	/*border: solid 3px black;*/
@@ -250,7 +252,7 @@ address {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;  
-  margin-left: 500px;
+  margin-left: auto;
   margin-right: 500px;
   font-family: 'Lato';
   /*text-align: center;*/
@@ -328,9 +330,10 @@ address {
 }
 
 .jumbotron12 {
-	height: 800px;
-	margin-top: -15px;
-	background-color: white;
+	height: 1600px;
+	margin-top: -100px;
+	padding-top: 105px;
+	background-color: rgb(245,245,245);
 }
 
 #left-side-background {
@@ -338,18 +341,26 @@ address {
 	position: relative;
     top: 0px;
     left: 0px;
-    width: 20%;
+    width: 40%;
     height: 100%;
-    background-color: #333333;
+    background-color: #f5f5f5;
 }
 
 .jumbotron12 p {
 	font-size: 16px;
 }
 
+.jumbotron12 h1 {
+	font-family: 'Lato';
+	font-size: 50px;
+	line-height: 90px
+	color: #181818;
+	text-align: center;
+}
+
 .flexx {
    /*margin-top: -70px;*/
-   margin-left: 100px;
+   margin-left: 400px;
    -webkit-flex: flex1;
           flex: flex1;
    width: 300px;
@@ -357,8 +368,9 @@ address {
    /*text-align: center;*/
    font-family: 'Lato';
    font-size: 16px;
-   color: #fff;
-   line-height: 20px
+   color: #444;
+   line-height: 20px;
+   background-color: #444;
  }
 
 /* footer */
@@ -371,11 +383,9 @@ address {
 #arrow {
   width: 80px;
   height:80px;
-  margin-left: 1230px;
-  margin-top: 40px;
-  /*border: solid 1px #43c83c;*/
+  margin-left: 575px;
+  margin-top: -140px;
   text-align: center;
-  /*padding-top: -17px;*/
   position: relative;
   color: white;
   background-color: #A52A2A;
@@ -390,6 +400,151 @@ address {
    position: relative;
 }
 
+.contact-icons {
+	width: 120px;
+	height:120px;
+	margin-left: 1230px;
+	margin-top: 80px;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	 border-radius:        50%;
+}
+
+.flexer2 {
+  /*padding-top: -300px;*/
+  width:  750px;
+  height: auto;
+  /*border: solid 5px red;*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  margin-top: -1400px;
+  margin-left: 280px;
+  margin-right: 500px;
+  /*padding: 10px;*/
+  font-family: 'Lato';
+  align-items: center;
+  /*flex-flow: row;
+  writing-mode: horizontal-tb;*/
+}
+
+.flexer2 h4 {
+	color: #D14841;
+	line-height: 45px;
+	letter-spacing: 5px;
+	text-decoration: underline;
+}
+
+#icon1 {
+    -webkit-flex: icon1;
+            flex: icon1;
+    width: 120px;
+	height:120px;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	border-radius:         50%;
+}
+
+#icon2 {
+  -webkit-flex: icon2;
+          flex: icon2;
+    width: 120px;
+	height:120px;
+	/*margin-right:70px;*/
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	 border-radius:        50%;
+}
+
+#icon3 {
+    -webkit-flex: icon3;
+            flex: icon3;
+    width: 120px;
+	height:120px;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	 border-radius:        50%;
+}
+
+#icon4 {
+  -webkit-flex: icon4;
+          flex: ficon4;
+    width: 120px;
+	height:120px;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	border-radius:         50%;
+}
+
+#icon1:hover,
+#icon2:hover,
+#icon3:hover,
+#icon4:hover {
+	-webkit-flex: icon4;
+            flex: ficon4;
+    width: 120px;
+	height:120px;
+	margin-right: 60px;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color:#cccccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	border-radius:         50%;
+	box-shadow: 0 0 0 5px #fff;
+}
+
+#caption1 {
+    -webkit-flex: caption1;
+            flex: caption1;
+    margin-left: 20px;
+}
+
+#caption2 {
+    -webkit-flex: caption2;
+            flex: caption2;
+    margin-left: 30px;
+}
+
+#caption3 {
+    -webkit-flex: caption3;
+            flex: caption3;
+    margin-left: 40px;
+}
+
+#caption4 {
+    -webkit-flex: caption4;
+            flex: caption4;
+    margin-left: 20px;
+}
+
+.fa {
+	width: 48px;
+	height: 48px;
+}
 
 
 /**********************************
@@ -397,3 +552,139 @@ address {
 *  @media queries 
 *
 ***********************************/
+
+@media only screen and (min-width: 1200px) and (max-width: 1024px) {
+    .container table {
+     /*margin-left: -500px;*/
+    }
+
+    .container table a {
+		padding-right: 10px;
+		padding-left: 10px;
+    }
+
+	.container #arrow {
+	  margin-left: -830px;
+	}
+
+	.jumbotron2 {
+		background-size:20%;
+    }
+
+    .flex {
+	   margin-top: -70px;
+	   margin-left: 250px;
+	   -webkit-flex: flex1;
+	          flex: flex1;
+	   width: 600px;
+	   padding: 35px;
+	   border: solid 3px green;
+	   /*text-align: center;*/
+	}
+
+	.jumbotron7 p {
+		margin-left: -100px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+    .conntainer table {
+      margin-left: -1000px;
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 4px;
+		padding-left:  4px;
+		font-size: 14px;
+    }
+
+     .container #arrow {
+	  margin-left: 450px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .conntainer table {
+      margin-left: -500px;
+    }
+
+    .container table a {
+		padding-right: 10px;
+		padding-left: 10px;
+    }
+
+    .container #arrow {
+	  margin-left: 330px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .conntainer table {
+      margin-left: -220px;
+    }
+
+    .container table a {
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 12px;
+    }
+
+     .container #arrow {
+	  margin-left: 300px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .conntainer table {
+      margin-left: 100px;
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 12px;
+    }
+
+     .container #arrow {
+	  margin-left: 230px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.jumbotron h1{
+		font-size: 20px;
+	}
+
+    .conntainer table {
+      /*margin-left: -220px;*/
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 4px;
+		padding-left:  4px;
+		font-size: 10px;
+    }
+
+     .container #arrow {
+	  margin-left: 170px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

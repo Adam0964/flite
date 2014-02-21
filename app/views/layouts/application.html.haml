@@ -11,7 +11,7 @@
     / Le HTML5 shim, for IE6-8 support of HTML elements
     /[if lt IE 9]
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
-    = stylesheet_link_tag "application", :media => "all"
+    / = stylesheet_link_tag "application", :media => "all"
     / For third-generation iPad with high-resolution Retina display:
     / Size should be 144 x 144 pixels
     = favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144'
@@ -27,7 +27,7 @@
     / For all other devices
     / Size should be 32 x 32 pixels
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
-    = javascript_include_tag "application"
+    / = javascript_include_tag "application"
 
     = stylesheet_link_tag   "http://fonts.googleapis.com/css?family=Lato:400" 
 %body
@@ -40,8 +40,53 @@
     = javascript_include_tag "application", "data-turbolinks-track" => true
 
     :javascript  
-    $('.carousel').carousel()
+        $('.carousel').carousel()
 
+    :javascript
+        jQuery(document).ready(function(){
+              jQuery('selector').slippry()
+        });
+
+    / :javascript
+    /     $(function() {
+    /             var demo1 = $("#demo1").slippry({
+    /                 transition: 'fade',
+    /                 useCSS: true,
+    /                 speed: 1000,
+    /                 pause: 3000,
+    /                 auto: true,
+    /                 preload: 'visible'
+    /             });
+
+    /             $('.stop').click(function () {
+    /                 demo1.stopAuto();
+    /             });
+
+    /             $('.start').click(function () {
+    /                 demo1.startAuto();
+    /             });
+
+    /             $('.prev').click(function () {
+    /                 demo1.goToPrevSlide();
+    /                 return false;
+    /             });
+    /             $('.next').click(function () {
+    /                 demo1.goToNextSlide();
+    /                 return false;
+    /             });
+    /             $('.reset').click(function () {
+    /                 demo1.destroySlider();
+    /                 return false;
+    /             });
+    /             $('.reload').click(function () {
+    /                 demo1.reloadSlider();
+    /                 return false;
+    /             });
+    /             $('.init').click(function () {
+    /                 demo1 = $("#demo1").slippry();
+    /                 return false;
+    /             });
+    /     });
 
     / .navbar.navbar-fluid-top
     /   .navbar-inner

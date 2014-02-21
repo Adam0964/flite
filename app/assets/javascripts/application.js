@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require SmoothScroll
+//= require slippry
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
