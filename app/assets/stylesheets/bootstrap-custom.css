@@ -79,9 +79,9 @@ table a:hover {
 .jumbotron2 {
 	width:  2600px;
 	height: 1200px;
-	background-image: url(banner.png);
+	/*background-image: url(banner.png);
 	background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat;*/
 }
 
 .jumbotron2 p {
