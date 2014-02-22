@@ -19,8 +19,8 @@ ul.icons-ul,
 p, 
 address,
 cite {
-	padding-left:  500px;
-	padding-right: 500px;
+	/*padding-left:  500px;
+	padding-right: 500px;*/
 	font-family: 'Lato', Serif;
 	font-size: 20px;
 }
@@ -149,7 +149,7 @@ table a:hover {
 }
 
 .jumbotron7 {
-	height: 1000px;
+	height: 1200px;
 	margin-top: -100px;
 	padding-top: 45px;
 	background-color: #333333;
@@ -162,15 +162,7 @@ table a:hover {
 }
 
 .jumbotron7 p {
-	-moz-column-count2; /* Firefox */
-    -webkit-column-count:2; /* Safari and Chrome */
-    column-count:2;
-    -moz-column-gap:    50px; /* Firefox */
-    -webkit-column-gap: 50px; /* Safari and Chrome */
-    column-gap:         50px;
-    text-align: justify;
-    font-size: 16px;
-	color: white;
+	
 }
 
 
@@ -211,12 +203,36 @@ table a:hover {
 
 .flex {
    margin-top: -70px;
-   margin-left: 950px;
+   margin-left: 270px;
    -webkit-flex: flex1;
-          flex: flex1;
-   width: 600px;
+           flex: flex1;
+   width:  600px;
    padding: 35px;
    text-align: center;
+   border: solid 3px red;
+}
+
+.pflex {
+   margin-left: -200px;
+   -webkit-flex: flex1;
+          f lex: flex1;
+   width:  1550px;
+   height: auto;
+   padding: 35px;
+   border: solid 3px green;
+}
+
+.pflex p {
+	-moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+    -moz-column-gap:    50px;  Firefox 
+    -webkit-column-gap: 50px; /* Safari and Chrome */
+    column-gap:         50px;
+    text-align: justify;
+    font-size: 16px;
+	color: white;
+   
 }
 
 .flex h1 {
@@ -246,16 +262,20 @@ table a:hover {
  }
 
 #flexer {
-  padding-top: -300px;
+  /*padding-top: -300px;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;  
-  margin-left: auto;
-  margin-right: 500px;
+  margin-left:  auto;
+  /*margin-right: 500px;*/
   font-family: 'Lato';
   /*text-align: center;*/
+  border: solid 3px green;
+  padding-top:   25px;
+  padding-left:  200px;
+  padding-right: 200px;
 }
 
 #flexer img {
@@ -265,39 +285,40 @@ table a:hover {
 .flex1 {
   -webkit-flex: flex1;
           flex: flex1;
-  width: 900px;
-  padding: 35px;
+  /*border: solid 3px red;*/
+  /*width: 800px;*/
+  /*padding-right: 50px;*/
 }
 .flex2 {
   -webkit-flex: flex2;
           flex: flex2;
-  width: 900px;
-  padding: 35px;
+  /*width: 900px;*/
+  /*padding-right: 50px;*/
 }
 .flex3 {
   -webkit-flex: flex3;
           flex: flex3;
-  width: 900px;
-  padding: 35px;
+  /*width: 900px;*/
+  /*padding-right: 50px;*/
 }
 .flex4 {
   -webkit-flex: flex4;
           flex: flex4;
-  width: 900px;
-  padding: 35px;
+  /*width: 900px;*/
+  /*padding-right: 50px;*/
 }
 
 .flex5 {
   -webkit-flex: flex5;
           flex: flex5;
-  width: 900px;
-  padding: 35px;
+  /*width: 900px;*/
+  /*padding-right: 50px;*/
 }
 .flex6 {
   -webkit-flex: flex6;
           flex: flex6;
-  width: 900px;
-  padding: 35px;
+ /* width: 900px;*/
+ /* padding-right: 50px;*/
 }
 
 #flex-container {
@@ -415,10 +436,8 @@ table a:hover {
 }
 
 .flexer2 {
-  /*padding-top: -300px;*/
   width:  750px;
   height: auto;
-  /*border: solid 5px red;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -427,7 +446,6 @@ table a:hover {
   margin-top: -1400px;
   margin-left: 280px;
   margin-right: 500px;
-  /*padding: 10px;*/
   font-family: 'Lato';
   align-items: center;
   /*flex-flow: row;
@@ -455,12 +473,11 @@ table a:hover {
 	border-radius:         50%;
 }
 
-#icon2 {
+/*#icon2 {
   -webkit-flex: icon2;
           flex: icon2;
     width: 120px;
 	height:120px;
-	/*margin-right:70px;*/
 	text-align: center;
 	position: relative;
 	color: white;
@@ -496,7 +513,7 @@ table a:hover {
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	border-radius:         50%;
-}
+}*/
 
 #icon1:hover,
 #icon2:hover,
@@ -575,15 +592,57 @@ table a:hover {
 	   margin-top: -70px;
 	   margin-left: 250px;
 	   -webkit-flex: flex1;
-	          flex: flex1;
-	   width: 600px;
+	          flex:  flex1;
+	   width:   600px;
 	   padding: 35px;
 	   border: solid 3px green;
 	   /*text-align: center;*/
 	}
 
-	.jumbotron7 p {
+	/*.jumbotron7 p {
 		margin-left: -100px;
+	}*/
+
+	#flexer {
+		padding-left:  -100px;
+        padding-right:  100px;
+	}
+
+	.jumbotron9 #flexer .container {
+		margin-left: -700px;
+	}
+
+	.flex1 {
+		padding-right: 70px;
+	}
+
+	.flex {
+	   margin-left: -450px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1700px;
+	}
+
+    .pflex {
+		width:       500px;
+		height:      1700px;
+		padding:     50px;
+		margin-left: 300px;
+        -webkit-flex: flex1;
+                flex: flex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
 	}
 }
 
@@ -602,6 +661,15 @@ table a:hover {
      .container #arrow {
 	  margin-left: 450px;
 	}
+
+	.flex {
+	   margin-left: 112px;
+	}
+
+	.flex h1 {
+		font-size:   45px;
+		line-height: 50px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -616,6 +684,25 @@ table a:hover {
 
     .container #arrow {
 	  margin-left: 330px;
+	}
+
+	#flexer img {
+		margin: 4px;
+	}
+
+	.flex-info {
+		width:  35px;
+		height: 35px;
+		display: inline-block;
+	}
+
+	.flex {
+	   margin-left: -5px;
+	}
+
+	.flex h1 {
+		font-size:   40px;
+		line-height: 55px;
 	}
 }
 
@@ -633,6 +720,33 @@ table a:hover {
      .container #arrow {
 	  margin-left: 300px;
 	}
+
+	#flexer img {
+		margin: 4px;
+	}
+
+	.flex-info {
+		width:  30px;
+		height: 45px;
+		display: inline-block;
+	}
+
+	.jumbotron9 {
+		height: 1000px;
+	}
+
+	.flex {
+	   margin-left: 90px;
+	}
+
+	.flex h1 {
+		font-size:   40px;
+		line-height: 55px;
+	}
+
+	.flex {
+		width: 400px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -647,8 +761,63 @@ table a:hover {
 		font-size: 12px;
     }
 
-     .container #arrow {
+    .container #arrow {
 	  margin-left: 230px;
+	}
+
+	#flexer {
+		padding-left: -200px;
+	}
+
+	.flex1 {
+		padding-right: 190px;
+
+	}
+
+	#flexer img {
+		margin: 4px;
+	}
+
+	.flex-info {
+		width:  30px;
+		height: 30px;
+		display: inline-block;
+	}
+
+	.flex {
+	   margin-left: 25px;
+	}
+
+	.flex h1 {
+		font-size:   40px;
+		line-height: 45px;
+	}
+
+	.flex {
+		width: 400px;
+	}
+
+	.jumbotron7 {
+		height: 1500px;
+	}
+
+	.container .pflex {
+		width:       500px;
+		height:      auto;
+		padding:     20px;
+		margin-left: 0px;
+        -webkit-flex: flex1;
+                flex: flex1;
+	}
+
+	.pflex p {
+		-moz-column-count1; /* Firefox */
+	    -webkit-column-count:1; /* Safari and Chrome */
+	    column-count:1;
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+	   
 	}
 }
 
@@ -669,7 +838,43 @@ table a:hover {
     }
 
      .container #arrow {
-	  margin-left: 170px;
+	    margin-left: 170px;
+	}
+
+	.jumbotron9 {
+		height: 1200px;
+	}
+
+	.flex {
+	   margin-left: 65px;
+	}
+
+	.flex h1 {
+		font-size:   30px;
+		line-height: 45px;
+	}
+
+	.flex {
+		width: 150px;
+	}
+
+	.jumbotron7 {
+		height: 1700px;
+	}
+
+	.container .pflex {
+		width:       380px;
+		height:      auto;
+    }
+
+    .pflex p {
+		-moz-column-count1; /* Firefox */
+	    -webkit-column-count:1;  Safari and Chrome 
+	    column-count:1;
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+	   
 	}
 }
 
