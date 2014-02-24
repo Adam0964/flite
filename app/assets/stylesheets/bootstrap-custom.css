@@ -8,6 +8,7 @@
 body {
 	overflow-x: hidden;
 }
+
 h2, h3 {
 	font-family: 'Lato', Serif;
 	color: #D14841;
@@ -15,12 +16,10 @@ h2, h3 {
 	padding-top: 75px;
 }
 
-ul.icons-ul, 
+/*ul.icons-ul, 
 p, 
 address,
 cite {
-	/*padding-left:  500px;
-	padding-right: 500px;*/
 	font-family: 'Lato', Serif;
 	font-size: 20px;
 }
@@ -28,7 +27,7 @@ cite {
 address {
 	padding-left:  1200px;
 	padding-right: 1200px;
-}
+}*/
 
 .jumbotron {
 	height: 160px;
@@ -37,13 +36,13 @@ address {
 
 table {
 	margin-top: -20px;
-	margin-left: auto;
+	margin-left:  170px;
 	overflow-x: hidden;
 }
 
 table a {
 	padding-right: 20px;
-	padding-left: 20px;
+	padding-left:  20px;
 	font-family: 'Bank Gothic';
 	color: #353535;
 	text-decoration: none;
@@ -82,6 +81,11 @@ table a:hover {
 	/*background-image: url(banner.png);
 	background-size: contain;
     background-repeat:no-repeat;*/
+}
+
+.jumbotron2 img {
+	width: 3000px;
+	height: 1200px;
 }
 
 .jumbotron2 p {
@@ -209,13 +213,24 @@ table a:hover {
    width:  600px;
    padding: 35px;
    text-align: center;
-   border: solid 3px red;
+   /*border: solid 3px red;*/
 }
 
 .pflex {
    margin-left: -200px;
-   -webkit-flex: flex1;
-          f lex: flex1;
+   -webkit-flex: pflex1;
+           flex: pflex1;
+   width:  1550px;
+   height: auto;
+   padding: 35px;
+   border: solid 3px green;
+}
+
+.pflex2 {
+	margin-top: -900px;
+   margin-left: -200px;
+   -webkit-flex: pflex1;
+           flex: pflex1;
    width:  1550px;
    height: auto;
    padding: 35px;
@@ -229,10 +244,21 @@ table a:hover {
     -moz-column-gap:    50px;  Firefox 
     -webkit-column-gap: 50px; /* Safari and Chrome */
     column-gap:         50px;
+    font-family: 'Helvetica';
     text-align: justify;
     font-size: 16px;
 	color: white;
    
+}
+
+#photo-container {
+	width:  200px;
+	height: 200px;
+	/*-webkit-border-radius: 50%;
+    -moz-border-radius:    50%;
+    border-radius:         50%;*/
+    border: solid 3px blue;
+	/*background-image: url(pf-David R.jpg);*/
 }
 
 .flex h1 {
@@ -243,11 +269,11 @@ table a:hover {
 	color: #D14841;
 }
 
-.jumbotron7  p,
+/*.jumbotron7  p,
 .jumbotron9  p,
 .jumbotron12 p {
 	font-family: 'Lato';
- }
+ }*/
 
 
 .jumbotron9 table {
@@ -341,7 +367,7 @@ table a:hover {
     border-radius:         50%;
 }
 
-.jumbotron11 {
+.divider {
 	height: 200px;
 	margin-top: -15px;
 	margin-bottom: 100px;
@@ -355,6 +381,12 @@ table a:hover {
 	margin-top: -100px;
 	padding-top: 105px;
 	background-color: rgb(245,245,245);
+}
+
+.jumbotron13 {
+	height: 900px;
+	margin-top: -15px;
+	background-color: #fff;
 }
 
 #left-side-background {
@@ -374,8 +406,8 @@ table a:hover {
 .jumbotron12 h1 {
 	font-family: 'Lato';
 	font-size: 50px;
-	line-height: 90px
-	color: #181818;
+	line-height: 90px;
+	color: #B8860B;
 	text-align: center;
 }
 
@@ -396,9 +428,15 @@ table a:hover {
 
 /* footer */
 .jumbotron10 {
-	height: 220px;
+	height: 100px;
 	margin-top: -15px;
 	background-color: #15317E;
+}
+
+.jumbotron10a {
+	height: 40px;
+	margin-top: -15px;
+	background-color: #B8860B;
 }
 
 #arrow {
@@ -436,34 +474,53 @@ table a:hover {
 }
 
 .flexer2 {
-  width:  750px;
+  width:  700px;
   height: auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;  
-  margin-top: -1400px;
-  margin-left: 280px;
+  margin-top: -1550px;
+  margin-left: 230px;
   margin-right: 500px;
+  padding: 25px;
   font-family: 'Lato';
-  align-items: center;
+  border: solid 3px blue;
+  /*align-items: center;*/
   /*flex-flow: row;
   writing-mode: horizontal-tb;*/
 }
 
 .flexer2 h4 {
 	color: #D14841;
-	line-height: 45px;
-	letter-spacing: 5px;
-	text-decoration: underline;
+	line-height: 25px;
+	letter-spacing: 4px;
+	/*text-align: center;*/
+	/*text-decoration: underline;*/
 }
+
+/*.flexer3 {
+  width:  600px;
+  height: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  margin-top: -1250px;
+  margin-left: 280px;
+  margin-right: 500px;
+  font-family: 'Lato';
+  border: solid 3px blue;
+}*/
 
 #icon1 {
     -webkit-flex: icon1;
             flex: icon1;
     width: 120px;
 	height:120px;
+	margin-right: 100px;
 	text-align: center;
 	position: relative;
 	color: white;
@@ -473,11 +530,12 @@ table a:hover {
 	border-radius:         50%;
 }
 
-/*#icon2 {
+#icon2 {
   -webkit-flex: icon2;
           flex: icon2;
     width: 120px;
 	height:120px;
+	margin-right: 100px;
 	text-align: center;
 	position: relative;
 	color: white;
@@ -492,6 +550,7 @@ table a:hover {
             flex: icon3;
     width: 120px;
 	height:120px;
+	margin-right: 100px;
 	text-align: center;
 	position: relative;
 	color: white;
@@ -506,6 +565,7 @@ table a:hover {
           flex: ficon4;
     width: 120px;
 	height:120px;
+	margin-right: 100px;
 	text-align: center;
 	position: relative;
 	color: white;
@@ -513,7 +573,7 @@ table a:hover {
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	border-radius:         50%;
-}*/
+}
 
 #icon1:hover,
 #icon2:hover,
@@ -523,7 +583,7 @@ table a:hover {
             flex: ficon4;
     width: 120px;
 	height:120px;
-	margin-right: 60px;
+	/*margin-right: 60px;*/
 	text-align: center;
 	position: relative;
 	color: white;
@@ -543,13 +603,13 @@ table a:hover {
 #caption2 {
     -webkit-flex: caption2;
             flex: caption2;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 #caption3 {
     -webkit-flex: caption3;
             flex: caption3;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 #caption4 {
@@ -563,6 +623,33 @@ table a:hover {
 	height: 48px;
 }
 
+textarea {
+    resize: none;
+}
+.btn {
+	background-color: green;
+}
+.btn-primary {
+	width: 350px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	padding-right: 210px;
+	padding-left:  210px;
+}
+
+.well {
+	margin-left: 200px;
+	height: 560px;
+	width: 550px;
+	padding: 20px;
+}
+.contact {
+	width:  300px;
+	height: 300px;
+	background-image: url(contact_form.png);
+}
+
 
 /**********************************
 * 
@@ -570,14 +657,20 @@ table a:hover {
 *
 ***********************************/
 
-@media only screen and (min-width: 1200px) and (max-width: 1024px) {
+@media only screen and (min-width: 1200px) and (max-width: 1224px) {
+
+	.jumbotron2 img {
+		width: 1200px;
+		height: 600px;
+	}
+
     .container table {
-     /*margin-left: -500px;*/
+     margin-left: 250px;
     }
 
     .container table a {
 		padding-right: 10px;
-		padding-left: 10px;
+		padding-left:  10px;
     }
 
 	.container #arrow {
@@ -585,7 +678,7 @@ table a:hover {
 	}
 
 	.jumbotron2 {
-		background-size:20%;
+		height: 600px;
     }
 
     .flex {
@@ -596,12 +689,7 @@ table a:hover {
 	   width:   600px;
 	   padding: 35px;
 	   border: solid 3px green;
-	   /*text-align: center;*/
 	}
-
-	/*.jumbotron7 p {
-		margin-left: -100px;
-	}*/
 
 	#flexer {
 		padding-left:  -100px;
@@ -632,10 +720,9 @@ table a:hover {
     .pflex {
 		width:       500px;
 		height:      1700px;
-		padding:     50px;
-		margin-left: 300px;
-        -webkit-flex: flex1;
-                flex: flex1;
+		margin-left: 100px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
 	}
 
 	.container .pflex p {
@@ -647,6 +734,16 @@ table a:hover {
 }
 
 @media only screen and (max-width: 980px) {
+
+    .jumbotron2 {
+		height: 550px;
+	}
+
+	.jumbotron2 img {
+		width: 1000px;
+		height: 450px;
+	}
+
     .conntainer table {
       margin-left: -1000px;
       overflow-x: hidden;
@@ -670,11 +767,25 @@ table a:hover {
 		font-size:   45px;
 		line-height: 50px;
 	}
+
+	.flexer2 {
+		margin-left: 100px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-    .conntainer table {
-      margin-left: -500px;
+
+    .jumbotron2 {
+		height: 600px;
+	}
+
+	.jumbotron2 img {
+		width: 900px;
+		height: 600px;
+	}
+
+    .container table {
+	    margin-left: 50px;
     }
 
     .container table a {
@@ -683,7 +794,7 @@ table a:hover {
     }
 
     .container #arrow {
-	  margin-left: 330px;
+	    margin-left: 330px;
 	}
 
 	#flexer img {
@@ -704,9 +815,28 @@ table a:hover {
 		font-size:   40px;
 		line-height: 55px;
 	}
+
+	.flexer2 {
+		margin-left: -5px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
+
+.jumbotron2 {
+	    width: 550px;
+		height: 240px;
+	}
+
+	.jumbotron2 img {
+		width: 555px;
+		height: 240px;
+	}
+
+    .container table {
+	    margin-left: 50px;
+    }
+
     .conntainer table {
       margin-left: -220px;
     }
@@ -747,6 +877,69 @@ table a:hover {
 	.flex {
 		width: 400px;
 	}
+
+	.flexer2 {
+		width: 460px;
+		margin-left: 80px;
+	}
+
+	
+	#icon1 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon2 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon3 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon4 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#caption1 {
+	    -webkit-flex: caption1;
+	            flex: caption1;
+	    margin-left: 0px;
+	}
+
+	#caption2 {
+	    -webkit-flex: caption2;
+	            flex: caption2;
+	    margin-left: 15px;
+	}
+
+	#caption3 {
+	    -webkit-flex: caption3;
+	            flex: caption3;
+	    margin-left: 10px;
+	}
+
+	#caption4 {
+	    -webkit-flex: caption4;
+	            flex: caption4;
+	    margin-left: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -819,6 +1012,84 @@ table a:hover {
 		color: white;
 	   
 	}
+
+	.flexer2 {
+		width: 450px;
+		margin-left: 20px;
+	}
+
+	.flexer2 h4 {
+		font-size: 16px;
+		color: #D14841;
+		/*line-height: 16px;*/
+		/*letter-spacing: 4px;*/
+	}
+
+	.jumbotron12 h1 {
+		font-family: 'Lato';
+		font-size: 30px;
+		line-height: 50px;
+		color: #181818;
+		text-align: center;
+	}
+
+	
+	#icon1 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon2 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon3 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon4 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#caption1 {
+    -webkit-flex: caption1;
+            flex: caption1;
+    margin-left: 0px;
+	}
+
+	#caption2 {
+	    -webkit-flex: caption2;
+	            flex: caption2;
+	    margin-left: 15px;
+	}
+
+	#caption3 {
+	    -webkit-flex: caption3;
+	            flex: caption3;
+	    margin-left: 10px;
+	}
+
+	#caption4 {
+	    -webkit-flex: caption4;
+	            flex: caption4;
+	    margin-left: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -874,10 +1145,201 @@ table a:hover {
 	    text-align: justify;
 	    font-size: 16px;
 		color: white;
-	   
+	}
+
+	.flexer2 {
+		width: 150px;
+		margin-left: 100px;
+		display: block;
+	}
+
+	.flexer2 h4 {
+		font-size: 16px;
+		color: #D14841;
+		/*line-height: 16px;*/
+		/*letter-spacing: 4px;*/
+	}
+
+	.jumbotron12 h1 {
+		font-family: 'Lato';
+		font-size: 30px;
+		line-height: 50px;
+		color: #181818;
+		text-align: center;
+	}
+
+	
+	#icon1 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon2 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon3 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon4 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#caption1 {
+    -webkit-flex: caption1;
+            flex: caption1;
+    margin-left: 0px;
+	}
+
+	#caption2 {
+	    -webkit-flex: caption2;
+	            flex: caption2;
+	    margin-left: 15px;
+	}
+
+	#caption3 {
+	    -webkit-flex: caption3;
+	            flex: caption3;
+	    margin-left: 10px;
+	}
+
+	#caption4 {
+	    -webkit-flex: caption4;
+	            flex: caption4;
+	    margin-left: 10px;
 	}
 }
 
+
+
+@media only screen and (max-width: 480px) {
+	.jumbotron h1{
+		font-size: 20px;
+	}
+
+    .conntainer table {
+      /*margin-left: -220px;*/
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 4px;
+		padding-left:  4px;
+		font-size: 10px;
+    }
+
+     .container #arrow {
+	    margin-left: 170px;
+	}
+
+	.jumbotron9 {
+		height: 1200px;
+	}
+
+	.flex {
+	   margin-left: 65px;
+	}
+
+	.flex h1 {
+		font-size:   30px;
+		line-height: 45px;
+	}
+
+	.flex {
+		width: 150px;
+	}
+
+	.jumbotron7 {
+		height: 1700px;
+	}
+
+	.container .pflex {
+		width:       380px;
+		height:      auto;
+    }
+
+    .pflex p {
+		-moz-column-count1; /* Firefox */
+	    -webkit-column-count:1;  Safari and Chrome 
+	    column-count:1;
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+	}
+
+	.flexer2 {
+		width: 150px;
+		margin-left: 80px;
+		display: block;
+	}
+
+	.flexer2 h4 {
+		font-size: 16px;
+		color: #D14841;
+		/*line-height: 16px;*/
+		/*letter-spacing: 4px;*/
+	}
+
+	.jumbotron12 h1 {
+		font-family: 'Lato';
+		font-size: 30px;
+		line-height: 50px;
+		color: #181818;
+		text-align: center;
+	}
+
+	
+	#icon1 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 40px;
+		height:40px;
+		margin-right: 10px;
+	}
+
+	#caption1 {
+    -webkit-flex: caption1;
+            flex: caption1;
+    margin-left: 0px;
+	}
+
+	#caption2 {
+	    -webkit-flex: caption2;
+	            flex: caption2;
+	    margin-left: 15px;
+	}
+
+	#caption3 {
+	    -webkit-flex: caption3;
+	            flex: caption3;
+	    margin-left: 10px;
+	}
+
+	#caption4 {
+	    -webkit-flex: caption4;
+	            flex: caption4;
+	    margin-left: 10px;
+	}
+}
+
+
+ 
 
 
 

@@ -3,14 +3,11 @@
 
 .jumbotron2
   %div 
+    = image_tag ('banner.png')
   .col-md-12 
   %a{name: "flywithus"}
 
-  %div
-    = image_tag ('banner.png'), :size => '2600x900'
-    / %p Whether you need a one-time private charter, or a comprehensive membership program – or something in between – Private FLITE can help. We have created a private jet alternative that offers the peace of mind and reliability of fractional ownership as well as the flexibility, simplicity and choice that comes with jet charter: all backed by an established culture that is dedicated to offering nothing but the very best in customer service.
-  
-.jumbotron11
+.divider
   %div
   %a{name: "featured"}
   %h2 Featured Jets
@@ -40,7 +37,7 @@
   /       %a{href: "#slide3"}
   /         = image_tag ('slide3.jpg')
 
-.jumbotron11
+.divider
   %div
   %a{name: "success"}
   %h2 Sucess Stories
@@ -54,7 +51,7 @@
   %div 
   .col-md-12 
 
-.jumbotron11
+.divider
   %div
     %a{name: "private"}
     %h2 Private Jets
@@ -68,7 +65,7 @@
   %div
   .col-md-12 
   
-.jumbotron11
+.divider
   %div
   %a{name: "airtaxi"}
   %h2 Air Taxi
@@ -82,7 +79,7 @@
   %div 
   .col-md-12
 
-.jumbotron11
+.divider
   %div
   %a{name: "aboutus"}
   %h2 About Us
@@ -119,8 +116,33 @@
 
         %p Marcus Zimmerman, FLITE’s Business Manager is someone with whom you don’t want to fall out – he’s a retired extreme fighter!Marcus now manages a battery of key financial and operational duties that keep the company running efficiently and smoothly. He oversees the financial and fiscal management of company operations, and provides leadership and coordination in the administration, business planning, accounting and budgeting efforts. Zimmerman is also tasked with adherence to key insurance and legal requirements in the complex 3rd party logistics marketplace.
 
+.divider
+  %div
+  %a{name: "team"}
+  %h2 Meet the Team
 
-.jumbotron11
+.container
+  .row
+    #arrow
+      = image_tag ('down-arrow.png'), :size => '48x48'
+
+.jumbotron13
+.container
+  .row
+    / .pflex
+    /   .flex1
+    /     #photo-container 
+    /       = image_tag ('pf-justin S.jpg'), :size => '300x300'
+    /       \&nbsp
+    /       %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+    /       \&nbsp
+    /     %br
+    /   .flex2
+    /     #photo-container 
+    /       = image_tag ('pf-David R.jpg'), :size => '300x300'
+    /       %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+
+.divider
   %div
   %a{name: "safety"}
   %h2 Safety
@@ -230,7 +252,7 @@
         %br
 
 
-.jumbotron11
+.divider
   %div
   %a{name: "quote"}
   %h2 Get a Quote
@@ -244,7 +266,7 @@
   %div 
   .col-md-12 
 
-.jumbotron11
+.divider
   %div
   %a{name: "contactus"}
   %h2 Contact Us
@@ -257,52 +279,52 @@
 .jumbotron12
   / %div 
   / .col-md-12 
-  %h1 Contact Private Flite
+  / %h1 Contact Private Flite
 .container
   .row
-    .flexer2
-      %div
-        #icon1
-        / %i.fa.fa-mobile.fa-lg
-        %br
-        #caption1
-          %h4
-            PHONE
-          %p 
-          877.322.5387
-      %div
-        #icon1
-        %br
-        #caption2
-          %h4
-            FAX
-          %p
-          781.987.7217
-      %div
-        #icon1
-        / %i.fa.fa-envelope
-        %br
-        #caption3
-          %h4
-            EMAIL
-          %p
-          info@private-flite.com
-      %div
-        #icon1
-        %br
-        #caption4
-          %h4
-            HOURS
-          %p
-          24
-          \&nbsp  
-          |
-          \&nbsp  
-          7
-          \&nbsp  
-          |
-          \&nbsp  
-          365
+  .flexer2
+    %div
+      #icon1
+      / %i.fa.fa-mobile.fa-lg
+      %br
+      #caption1
+        %h4
+          PHONE
+        %p 
+        877.322.5387
+    %div
+      #icon2
+      %br
+      #caption2
+        %h4
+          FAX
+        %p
+        781.987.7217
+    %div
+      #icon3
+      / %i.fa.fa-envelope
+      %br
+      #caption3
+        %h4
+          EMAIL
+        %p
+        %a{href: "mailto:info@private-flite.com"}Get in touch
+    %div
+      #icon4
+      %br
+      #caption4
+        %h4
+          HOURS
+        %p
+        24
+        \&nbsp  
+        |
+        \&nbsp  
+        7
+        \&nbsp  
+        |
+        \&nbsp  
+        365
   / .flexer2
   /   %div
   /     #caption1
