@@ -628,29 +628,29 @@ table a:hover {
 #icon-phone {
 	-webkit-flex: icon-img1;
             flex: icon-img1;
-	margin-top: 42px;
-	margin-left: -166px;
+	margin-top: 39px;
+	margin-left: -175px;
 }
 
 #icon-fax {
 	-webkit-flex: icon-img2;
             flex: icon-img2;
-	margin-top: 43px;
-	margin-left: -165px;
+	margin-top: 39px;
+	margin-left: -175px;
 }
 
 #icon-envelope {
 	-webkit-flex: icon-img3;
             flex: icon-img3;
-	margin-top:  48px;
-	margin-left: -165px;
+	margin-top:  39px;
+	margin-left: -175px;
 }
 
 #icon-clock {
 	-webkit-flex: icon-img3;
             flex: icon-img3;
-	margin-top: 42px;
-	margin-left: -169px;
+	margin-top: 39px;
+	margin-left: -175px;
 }
 
 #caption1 {
