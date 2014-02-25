@@ -193,7 +193,7 @@ table a:hover {
 }
 
 .jumbotron9 p {
-	-moz-column-count2; /* Firefox */
+	-moz-column-count:2; /* Firefox */
     -webkit-column-count:2; /* Safari and Chrome */
     column-count:2;
     text-align: justify;
@@ -635,7 +635,7 @@ table a:hover {
 #icon-fax {
 	-webkit-flex: icon-img2;
             flex: icon-img2;
-	margin-top: 47px;
+	margin-top: 43px;
 	margin-left: -165px;
 }
 
