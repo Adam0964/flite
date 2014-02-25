@@ -784,8 +784,9 @@ textarea {
 @media only screen and (max-width: 1442px) {
 
 	.jumbotron2 img {
-		width: 1470px;
+		width: 1510px;
 		height: 600px;
+		margin-left: -40px;
 	}
 
     .container table {
@@ -875,7 +876,7 @@ textarea {
     }
 
     .flex {
-	   margin-top: -70px;
+	   margin-top:  -70px;
 	   margin-left: 450px;
 	   -webkit-flex: flex1;
 	          flex:  flex1;
@@ -894,7 +895,7 @@ textarea {
 	}
 
 	.flex h1 {
-		font-size: 45px;
+		font-size:   45px;
 		line-height: 50px;
 	}
 
@@ -1189,12 +1190,12 @@ textarea {
 	}
 
 	.flexer2 #icon-phone {
-		margin-top: 40px;
+		margin-top:    40px;
 	    margin-left: -150px;
 	}
 
 	.flexer2 #icon-fax {
-		margin-top: 40px;
+		margin-top:   40px;
 	    margin-left: -150px;
 	}
 
@@ -1223,7 +1224,7 @@ textarea {
     .container table a {
 		padding-right: 7px;
 		padding-left:  7px;
-		font-size: 12px;
+		font-size:     12px;
     }
 
 	.jumbotron7 {
@@ -1234,14 +1235,14 @@ textarea {
 	}
 
 	.container .pflex {
-		width: 600px;
+		width:       600px;
 	    margin-left: 25px;
-	    padding: 30px;
+	    padding:     30px;
 	}
 	.pflex p {
-		-moz-column-count:1; /* Firefox */
+		-moz-column-count:   1; /* Firefox */
 	    -webkit-column-count:1; /* Safari and Chrome */
-	    column-count:1;
+	    column-count:        1;
 	    font-family: 'Helvetica';
 	    text-align: justify;
 	    font-size: 16px;
@@ -1336,7 +1337,7 @@ textarea {
 	}
 
 	.flexer2 {
-		width:  750px;
+		width:       750px;
 		margin-left: -80px;
 	}
 
@@ -1354,17 +1355,17 @@ textarea {
 	}
 
 	#icon-phone {
-		margin-top: 25px;
+		margin-top:   25px;
 	    margin-left: -157px;
 	}
 
 	#icon-fax {
-		margin-top: 25px;
+		margin-top:   25px;
 	    margin-left: -155px;
 	}
 
 	#icon-envelope {
-		margin-top: 30px;
+		margin-top:   30px;
 	    margin-left: -155px;
 	}
 	#icon-clock {
@@ -1380,12 +1381,9 @@ textarea {
 	   margin-left: -70px;
 	}
 	.pflex p {
-		-moz-column-count:1; /* Firefox */
+		-moz-column-count:   1; /* Firefox */
 	    -webkit-column-count:1; /* Safari and Chrome */
-	    column-count:1;
-	    /*-moz-column-gap:    50px;  Firefox 
-	    -webkit-column-gap: 50px; /* Safari and Chrome */
-	    column-gap:         50px;*/
+	    column-count:        1;
 	    font-family: 'Helvetica';
 	    text-align: justify;
 	    font-size: 16px;
