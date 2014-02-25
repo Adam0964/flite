@@ -871,21 +871,21 @@ textarea {
 
 	.flexer2 #icon-phone {
 		margin-top: 40px;
-	    margin-left: -138px;
+	    margin-left: -150px;
 	}
 
 	.flexer2 #icon-fax {
 		margin-top: 40px;
-	    margin-left: -138px;
+	    margin-left: -150px;
 	}
 
 	.flexer2 #icon-envelope {
-		margin-top: 45px;
-	    margin-left: -140px;
+		margin-top: 40px;
+	    margin-left: -150px;
 	}
 	.flexer2 #icon-clock {
-		margin-top:   42px;
-	    margin-left: -147px;
+		margin-top:   40px;
+	    margin-left: -150px;
 	}
 
 	.container #contact-form {
@@ -947,23 +947,23 @@ textarea {
 	           70px;
 	}
 
-	.flexer2 #icon-phone {
-		margin-top: 25px;
-	    margin-left: -135px;
+	.flexer2 #icon-phone img {
+		margin-top: -3px;
+	    margin-left: -5px;
 	}
 
-	.flexer2 #icon-fax {
-		margin-top: 25px;
-	    margin-left: -132px;
+	.flexer2 #icon-fax img {
+		margin-top: -3px;
+	    margin-left: -8px;
 	}
 
-	.flexer2 #icon-envelope {
-		margin-top: 30px;
-	    margin-left: -132px;
+	.flexer2 #icon-envelope img {
+		margin-top: -7px;
+	    margin-left: -8px;
 	}
-	.flexer2 #icon-clock {
-		margin-top:   25px;
-	    margin-left: -135px;
+	.flexer2 #icon-clock img {
+		margin-top: -3px;
+	    margin-left: -7px;
 	}
 
 	.container #contact-form {
@@ -1091,22 +1091,22 @@ textarea {
 	}
 
 	.flexer2 #icon-phone {
-		margin-top: 25px;
-	    margin-left: -135px;
+		margin-top: 22px;
+	    margin-left: -140px;
 	}
 
 	.flexer2 #icon-fax {
-		margin-top: 25px;
-	    margin-left: -132px;
+		margin-top: 22px;
+	    margin-left: -140px;
 	}
 
 	.flexer2 #icon-envelope {
-		margin-top: 30px;
-	    margin-left: -132px;
+		margin-top: 22px;
+	    margin-left: -140px;
 	}
 	.flexer2 #icon-clock {
-		margin-top:   25px;
-	    margin-left: -135px;
+		margin-top: 22px;
+	    margin-left: -140px;
 	}
 
 	.container #contact-form {
@@ -1114,6 +1114,8 @@ textarea {
 	   height: 800px;
 	   margin-left: -20px;
 	}
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1261,22 +1263,22 @@ textarea {
 	}
 
 	.flexer2 #icon-phone {
-		margin-top: 25px;
-	    margin-left: -107px;
+		margin-top: 22px;
+	    margin-left: -110px;
 	}
 
 	.flexer2 #icon-fax {
-		margin-top: 25px;
-	    margin-left: -105px;
+		margin-top: 22px;
+	    margin-left: -107px;
 	}
 
 	.flexer2 #icon-envelope {
-		margin-top: 30px;
-	    margin-left: -105px;
+		margin-top: 25px;
+	    margin-left: -107px;
 	}
 	.flexer2 #icon-clock {
-		margin-top:   22px;
-	    margin-left: -110px;
+		margin-top:   20px;
+	    margin-left: -108px;
 	}
 
 	.container #contact-form {
@@ -1461,22 +1463,22 @@ textarea {
 	}
 
 	.flexer2 #icon-phone {
-		margin-top: 25px;
+		margin-top: 21px;
 	    margin-left: -95px;
 	}
 
 	.flexer2 #icon-fax {
-		margin-top: 25px;
-	    margin-left: -90px;
+		margin-top: 21px;
+	    margin-left: -92px;
 	}
 
 	.flexer2 #icon-envelope {
-		margin-top: 30px;
-	    margin-left: -90px;
+		margin-top: 24px;
+	    margin-left: -92px;
 	}
 	.flexer2 #icon-clock {
-		margin-top:   22px;
-	    margin-left: -95px;
+		margin-top: 21px;
+	    margin-left: -93px;
 	}
 
 	.container #contact-form {
