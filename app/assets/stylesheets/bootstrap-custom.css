@@ -297,10 +297,9 @@ table a:hover {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;  
+  flex-direction: row;
   margin-left:  auto;
-  /*margin-right: 500px;*/
   font-family: 'Lato';
-  /*text-align: center;*/
   border: solid  3px green;
   padding-top:   25px;
   padding-left:  200px;
@@ -462,7 +461,6 @@ table a:hover {
 }
 
 #arrow img {
-   /*margin-left: 15px;*/
    margin-top: 15px;
    position: relative;
 }
@@ -489,6 +487,7 @@ table a:hover {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;  
+  flex-direction: row;
   margin-top: -1550px;
   margin-left: 100px;
   margin-right: 500px;
@@ -510,8 +509,6 @@ table a:hover {
 	color: #D14841;
 	line-height: 25px;
 	letter-spacing: 4px;
-	/*text-align: center;*/
-	/*text-decoration: underline;*/
 }
 
 /*.flexer3 {
@@ -784,6 +781,191 @@ textarea {
 	}
 }
 
+@media only screen and (max-width: 1137px) {
+
+	.jumbotron2 img {
+		width: 1160px;
+		height: 600px;
+	}
+
+    .container table {
+     margin-left: 130px;
+    }
+
+    .container table a {
+		padding-right: 10px;
+		padding-left:  10px;
+    }
+
+	.container #arrow {
+	  margin-left: 450px;
+	}
+
+	.jumbotron2 {
+		height: 600px;
+    }
+
+    .container .flex {
+	   margin-top: -70px;
+	   margin-left: 150px;
+	   -webkit-flex: flex1;
+	          flex:  flex1;
+	   width:   600px;
+	   padding: 35px;
+	   border: solid 3px green;
+	}
+
+	#flexer {
+		padding-left:   60px;
+        padding-right:  60px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1200px;
+	}
+
+    .pflex {
+		width:       800px;
+		height:      auto;
+		margin-left: 40px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
+	}
+
+	.flexer2 {
+		margin-left: -20px;
+	}
+
+	#contact-form {
+		margin-left: -20px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.jumbotron2 {
+		height: 550px;
+	}
+
+	.jumbotron2 img {
+		width: 1010px;
+		height: 550px;
+	}
+
+    .conntainer table {
+      margin-left: -1000px;
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 4px;
+		padding-left:  4px;
+		font-size: 14px;
+    }
+
+     .container #arrow {
+	  margin-left: 450px;
+	}
+
+	.container .flex {
+	   margin-left: 135px;
+	}
+
+	.flex h1 {
+		font-size:   45px;
+		line-height: 50px;
+	}
+
+	.flexer2 {
+		margin-left: 100px;
+	}
+
+	#flexer {
+		padding-left:   60px;
+        padding-right:  60px;
+        /*display: block;*/
+	}
+
+	.flex {
+	   margin-left: 270px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1200px;
+	}
+
+    .pflex {
+		width:       800px;
+		height:      auto;
+		margin-left: 50px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
+	}
+
+	.container .flexer2 {
+	  width:  750px;
+	  height: auto;
+	  margin-top: -1550px;
+	  margin-left: 50px;
+	  margin-right: 500px;
+	  padding: 45px 
+	           35px 
+	           45px 
+	           70px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 40px;
+	    margin-left: -150px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 40px;
+	    margin-left: -150px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 40px;
+	    margin-left: -150px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   40px;
+	    margin-left: -150px;
+	}
+
+	.container #contact-form {
+	   width:  802px;
+	   height: 800px;
+	   margin-left: 50px;
+	}
+}
+
+}
+
 @media only screen and (max-width: 980px) {
 
     .jumbotron2 {
@@ -985,12 +1167,12 @@ textarea {
     }
 
     .jumbotron2 {
-		height: 600px;
-	}
+    	height: 500px;
+    }
 
 	.jumbotron2 img {
 		width:  900px;
-		height: 600px;
+		height: 500px;
 	}
 
     .container #arrow {
@@ -1120,7 +1302,7 @@ textarea {
 
 @media only screen and (max-width: 767px) {
 
-.jumbotron2 {
+   .jumbotron2 {
 	    
 		height: 350px;
 	}
@@ -1254,7 +1436,7 @@ textarea {
 	  display: -webkit-flex;
 	  display: flex;  
 	  margin-top: -1550px;
-	  margin-left: 30px;
+	  margin-left: 20px;
 	  margin-right: 500px;
 	  padding: 45px 
 	           35px 
@@ -1284,10 +1466,211 @@ textarea {
 	.container #contact-form {
 	   width:  600px;
 	   height: 800px;
-	   margin-left: 30px;
+	   margin-left: 20px;
 	}
 
 }
+
+@media only screen and (max-width: 640px) {
+    .jumbotron .conntainer table {
+      /*margin-left: -20px;*/
+      overflow-x: hidden;
+    }
+
+    .container table a {
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 10px;
+    }
+
+    .jumbotron2 {
+		height: 300px;
+	}
+
+	.jumbotron2 img {
+		width: 585px;
+		height: 300px;
+	}
+
+    .container #arrow {
+	  margin-left: 230px;
+	}
+
+	#flexer {
+		display: block;
+		padding-left: -200px;
+	}
+
+	.flex1 {
+		padding-right: 190px;
+
+	}
+
+	#flexer img {
+		margin: 4px;
+	}
+
+	.flex-info {
+		width:  30px;
+		height: 30px;
+		display: inline-block;
+	}
+
+	.container .flex {
+	   margin-left: 28px;
+	}
+
+	.flex h1 {
+		font-size:   40px;
+		line-height: 45px;
+	}
+
+	.flex {
+		width: 400px;
+	}
+
+	.jumbotron7 {
+		height: 1500px;
+	}
+
+	.container .pflex {
+		width:       500px;
+		height:      auto;
+		padding:     20px;
+		margin-left: 0px;
+        -webkit-flex: flex1;
+                flex: flex1;
+	}
+
+	.pflex p {
+		-moz-column-count1; /* Firefox */
+	    -webkit-column-count:1; /* Safari and Chrome */
+	    column-count:1;
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+	   
+	}
+
+	.flexer2 {
+		width: 450px;
+		margin-left: 20px;
+	}
+
+	.flexer2 h4 {
+		font-size: 16px;
+		color: #D14841;
+		/*line-height: 16px;*/
+		/*letter-spacing: 4px;*/
+	}
+
+	.jumbotron12 h1 {
+		font-family: 'Lato';
+		font-size: 30px;
+		line-height: 50px;
+		color: #181818;
+		text-align: center;
+	}
+
+	
+	#icon1 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon2 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon3 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#icon4 {
+	    -webkit-flex: icon1;
+	            flex: icon1;
+	    width: 80px;
+		height:80px;
+		margin-right: 50px;
+	}
+
+	#caption1 {
+    -webkit-flex: caption1;
+            flex: caption1;
+    margin-left: 0px;
+	}
+
+	#caption2 {
+	    -webkit-flex: caption2;
+	            flex: caption2;
+	    margin-left: 15px;
+	}
+
+	#caption3 {
+	    -webkit-flex: caption3;
+	            flex: caption3;
+	    margin-left: 10px;
+	}
+
+	#caption4 {
+	    -webkit-flex: caption4;
+	            flex: caption4;
+	    margin-left: 10px;
+	}
+
+	.jumbotron9 {
+		height: auto;
+	}
+
+	.container .flexer2 {
+	  width:  470px;
+	  height: auto;
+	  margin-left: 10px;
+	  margin-right: 500px;
+	  padding: 35px 
+	           15px 
+	           35px 
+	           40px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 21px;
+	    margin-left: -95px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 21px;
+	    margin-left: -92px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 24px;
+	    margin-left: -92px;
+	}
+	.flexer2 #icon-clock {
+		margin-top: 21px;
+	    margin-left: -93px;
+	}
+
+	.container #contact-form {
+	   width:  475px;
+	   height: 800px;
+	   margin-left: 10px;
+	}
+
+}
+
 
 @media only screen and (max-width: 600px) {
     .jumbotron .conntainer table {
