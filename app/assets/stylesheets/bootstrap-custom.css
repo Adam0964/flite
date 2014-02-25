@@ -9,6 +9,10 @@ body {
 	overflow-x: hidden;
 }
 
+body p {
+	font-family: 'Helvetica neue';
+}
+
 h2, h3 {
 	font-family: 'Lato', Serif;
 	color: #D14841;
@@ -213,7 +217,7 @@ table a:hover {
    width:  600px;
    padding: 35px;
    text-align: center;
-   /*border: solid 3px red;*/
+   border: solid 3px red;
 }
 
 .pflex {
@@ -248,7 +252,6 @@ table a:hover {
     text-align: justify;
     font-size: 16px;
 	color: white;
-   
 }
 
 #photo-container {
@@ -298,7 +301,7 @@ table a:hover {
   /*margin-right: 500px;*/
   font-family: 'Lato';
   /*text-align: center;*/
-  border: solid 3px green;
+  border: solid  3px green;
   padding-top:   25px;
   padding-left:  200px;
   padding-right: 200px;
@@ -311,7 +314,7 @@ table a:hover {
 .flex1 {
   -webkit-flex: flex1;
           flex: flex1;
-  /*border: solid 3px red;*/
+  border: solid 3px red;
   /*width: 800px;*/
   /*padding-right: 50px;*/
 }
@@ -320,18 +323,21 @@ table a:hover {
           flex: flex2;
   /*width: 900px;*/
   /*padding-right: 50px;*/
+  border: solid 3px red;
 }
 .flex3 {
   -webkit-flex: flex3;
           flex: flex3;
   /*width: 900px;*/
   /*padding-right: 50px;*/
+  border: solid 3px red;
 }
 .flex4 {
   -webkit-flex: flex4;
           flex: flex4;
   /*width: 900px;*/
   /*padding-right: 50px;*/
+  border: solid 3px red;
 }
 
 .flex5 {
@@ -339,12 +345,14 @@ table a:hover {
           flex: flex5;
   /*width: 900px;*/
   /*padding-right: 50px;*/
+  border: solid 3px red;
 }
 .flex6 {
   -webkit-flex: flex6;
           flex: flex6;
  /* width: 900px;*/
  /* padding-right: 50px;*/
+ border: solid 3px red;
 }
 
 #flex-container {
@@ -383,13 +391,25 @@ table a:hover {
 	background-color: rgb(245,245,245);
 }
 
+.jumbotron12 p {
+	font-size: 16px;
+}
+
+/*.jumbotron12 h1 {
+	font-family: 'Lato';
+	font-size: 50px;
+	line-height: 90px;
+	color: #B8860B;
+	text-align: center;
+}*/
+
 .jumbotron13 {
 	height: 900px;
 	margin-top: -15px;
 	background-color: #fff;
 }
 
-#left-side-background {
+/*#left-side-background {
 	margin-top: -100px;
 	position: relative;
     top: 0px;
@@ -397,19 +417,7 @@ table a:hover {
     width: 40%;
     height: 100%;
     background-color: #f5f5f5;
-}
-
-.jumbotron12 p {
-	font-size: 16px;
-}
-
-.jumbotron12 h1 {
-	font-family: 'Lato';
-	font-size: 50px;
-	line-height: 90px;
-	color: #B8860B;
-	text-align: center;
-}
+}*/
 
 .flexx {
    /*margin-top: -70px;*/
@@ -474,7 +482,7 @@ table a:hover {
 }
 
 .flexer2 {
-  width:  700px;
+  width:  850px;
   height: auto;
   display: -webkit-box;
   display: -moz-box;
@@ -482,11 +490,17 @@ table a:hover {
   display: -webkit-flex;
   display: flex;  
   margin-top: -1550px;
-  margin-left: 230px;
+  margin-left: 100px;
   margin-right: 500px;
-  padding: 25px;
+  padding: 45px 
+           35px 
+           45px 
+           100px;
   font-family: 'Lato';
-  border: solid 3px blue;
+  border: solid 1.8px rgb(199, 199, 199);
+  -webkit-border-radius: 7px;
+  -moz-border-radius:    7px;
+  border-radius:         7px;
   /*align-items: center;*/
   /*flex-flow: row;
   writing-mode: horizontal-tb;*/
@@ -515,16 +529,35 @@ table a:hover {
   border: solid 3px blue;
 }*/
 
+#contact-form {
+   width:  935px;
+   height: 800px;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;  
+   margin-left: 100px;
+   margin-right: 500px;
+   padding: 25px;
+   font-family: 'Lato';
+   border: solid 1.8px rgb(199, 199, 199);
+   -webkit-border-radius: 7px;
+   -moz-border-radius:    7px;
+   border-radius:         7px;
+}
+
 #icon1 {
     -webkit-flex: icon1;
             flex: icon1;
     width: 120px;
 	height:120px;
 	margin-right: 100px;
+	border: solid 1.8px rgb(199, 199, 199);
 	text-align: center;
 	position: relative;
 	color: white;
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	border-radius:         50%;
@@ -536,10 +569,11 @@ table a:hover {
     width: 120px;
 	height:120px;
 	margin-right: 100px;
+	border: solid 1.8px rgb(199, 199, 199);
 	text-align: center;
 	position: relative;
 	color: white;
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	 border-radius:        50%;
@@ -551,10 +585,11 @@ table a:hover {
     width: 120px;
 	height:120px;
 	margin-right: 100px;
+	border: solid 1.5px rgb(199, 199, 199);
 	text-align: center;
 	position: relative;
 	color: white;
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	 border-radius:        50%;
@@ -566,10 +601,11 @@ table a:hover {
     width: 120px;
 	height:120px;
 	margin-right: 100px;
+	border: solid 1.8px rgb(199, 199, 199);
 	text-align: center;
 	position: relative;
 	color: white;
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	-webkit-border-radius: 50%;
 	-moz-border-radius:    50%;
 	border-radius:         50%;
@@ -579,11 +615,6 @@ table a:hover {
 #icon2:hover,
 #icon3:hover,
 #icon4:hover {
-	-webkit-flex: icon4;
-            flex: ficon4;
-    width: 120px;
-	height:120px;
-	/*margin-right: 60px;*/
 	text-align: center;
 	position: relative;
 	color: white;
@@ -592,6 +623,34 @@ table a:hover {
 	-moz-border-radius:    50%;
 	border-radius:         50%;
 	box-shadow: 0 0 0 5px #fff;
+}
+
+#icon-phone {
+	-webkit-flex: icon-img1;
+            flex: icon-img1;
+	margin-top: 42px;
+	margin-left: -166px;
+}
+
+#icon-fax {
+	-webkit-flex: icon-img2;
+            flex: icon-img2;
+	margin-top: 47px;
+	margin-left: -165px;
+}
+
+#icon-envelope {
+	-webkit-flex: icon-img3;
+            flex: icon-img3;
+	margin-top:  48px;
+	margin-left: -165px;
+}
+
+#icon-clock {
+	-webkit-flex: icon-img3;
+            flex: icon-img3;
+	margin-top: 42px;
+	margin-left: -169px;
 }
 
 #caption1 {
@@ -673,9 +732,9 @@ textarea {
 		padding-left:  10px;
     }
 
-	.container #arrow {
+	/*.container #arrow {
 	  margin-left: -830px;
-	}
+	}*/
 
 	.jumbotron2 {
 		height: 600px;
@@ -683,7 +742,7 @@ textarea {
 
     .flex {
 	   margin-top: -70px;
-	   margin-left: 250px;
+	   margin-left: 450px;
 	   -webkit-flex: flex1;
 	          flex:  flex1;
 	   width:   600px;
@@ -692,20 +751,12 @@ textarea {
 	}
 
 	#flexer {
-		padding-left:  -100px;
-        padding-right:  100px;
-	}
-
-	.jumbotron9 #flexer .container {
-		margin-left: -700px;
-	}
-
-	.flex1 {
-		padding-right: 70px;
+		padding-left:   60px;
+        padding-right:  60px;
 	}
 
 	.flex {
-	   margin-left: -450px;
+	   margin-left: 270px;
 	}
 
 	.flex h1 {
@@ -714,13 +765,13 @@ textarea {
 	}
 
 	.jumbotron7 {
-		height: 1700px;
+		height: 1200px;
 	}
 
     .pflex {
-		width:       500px;
-		height:      1700px;
-		margin-left: 100px;
+		width:       800px;
+		height:      auto;
+		margin-left: 160px;
         -webkit-flex: pflex1;
                 flex: pflex1;
 	}
@@ -741,7 +792,7 @@ textarea {
 
 	.jumbotron2 img {
 		width: 1000px;
-		height: 450px;
+		height: 550px;
 	}
 
     .conntainer table {
@@ -759,8 +810,8 @@ textarea {
 	  margin-left: 450px;
 	}
 
-	.flex {
-	   margin-left: 112px;
+	.container .flex {
+	   margin-left: 135px;
 	}
 
 	.flex h1 {
@@ -771,18 +822,158 @@ textarea {
 	.flexer2 {
 		margin-left: 100px;
 	}
+
+	#flexer {
+		padding-left:   60px;
+        padding-right:  60px;
+        /*display: block;*/
+	}
+
+	.flex {
+	   margin-left: 270px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1200px;
+	}
+
+    .pflex {
+		width:       800px;
+		height:      auto;
+		margin-left: 50px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
+	}
+
+	.container .flexer2 {
+	  width:  750px;
+	  height: auto;
+	  margin-top: -1550px;
+	  margin-left: 50px;
+	  margin-right: 500px;
+	  padding: 45px 
+	           35px 
+	           45px 
+	           70px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 40px;
+	    margin-left: -138px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 40px;
+	    margin-left: -138px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 45px;
+	    margin-left: -140px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   42px;
+	    margin-left: -147px;
+	}
+
+	.container #contact-form {
+	   width:  802px;
+	   height: 800px;
+	   margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+    .jumbotron h1 {
+    	font-size: 25px;
+    }
+
+    .container table a {
+		padding-right: 7px;
+		padding-left:  7px;
+		font-size: 12px;
+    }
+
+	.jumbotron7 {
+		height: 1300px;
+	}
+	.container .flex {
+	   margin-left: 20px;
+	}
+
+	.container .pflex {
+		width: 600px;
+	    margin-left: 25px;
+	    padding: 30px;
+	}
+	.pflex p {
+		-moz-column-count:1; /* Firefox */
+	    -webkit-column-count:1; /* Safari and Chrome */
+	    column-count:1;
+	    font-family: 'Helvetica';
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+   
+	}
+
+	.container .flexer2 {
+	  width:  650px;
+	  height: auto;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;  
+	  margin-top: -1550px;
+	  margin-left: -20px;
+	  margin-right: 500px;
+	  padding: 45px 
+	           35px 
+	           45px 
+	           70px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 25px;
+	    margin-left: -135px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 25px;
+	    margin-left: -132px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 30px;
+	    margin-left: -132px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   25px;
+	    margin-left: -135px;
+	}
+
+	.container #contact-form {
+	   width:  700px;
+	   height: 800px;
+	   margin-left: -20px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-
-    .jumbotron2 {
-		height: 600px;
-	}
-
-	.jumbotron2 img {
-		width: 900px;
-		height: 600px;
-	}
 
     .container table {
 	    margin-left: 50px;
@@ -790,8 +981,17 @@ textarea {
 
     .container table a {
 		padding-right: 10px;
-		padding-left: 10px;
+		padding-left:  10px;
     }
+
+    .jumbotron2 {
+		height: 600px;
+	}
+
+	.jumbotron2 img {
+		width:  900px;
+		height: 600px;
+	}
 
     .container #arrow {
 	    margin-left: 330px;
@@ -817,20 +1017,115 @@ textarea {
 	}
 
 	.flexer2 {
-		margin-left: -5px;
+		width:  750px;
+		margin-left: -80px;
+	}
+
+	#icon1,
+	#icon2,
+	#icon3,
+	#icon4 {
+		width: 90px;
+	    height:90px;
+	}
+
+	#contact-form {
+		width:  833px;
+		margin-left: -80px;
+	}
+
+	#icon-phone {
+		margin-top: 25px;
+	    margin-left: -157px;
+	}
+
+	#icon-fax {
+		margin-top: 25px;
+	    margin-left: -155px;
+	}
+
+	#icon-envelope {
+		margin-top: 30px;
+	    margin-left: -155px;
+	}
+	#icon-clock {
+		margin-top:   25px;
+	    margin-left: -160px;
+	}
+
+	.container .flex {
+	   margin-left: 20px;
+	}
+
+	.pflex {
+	   margin-left: -70px;
+	}
+	.pflex p {
+		-moz-column-count:1; /* Firefox */
+	    -webkit-column-count:1; /* Safari and Chrome */
+	    column-count:1;
+	    /*-moz-column-gap:    50px;  Firefox 
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;*/
+	    font-family: 'Helvetica';
+	    text-align: justify;
+	    font-size: 16px;
+		color: white;
+	}
+
+	.container .flexer2 {
+	  width:  650px;
+	  height: auto;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;  
+	  margin-top: -1550px;
+	  margin-left: -20px;
+	  margin-right: 500px;
+	  padding: 45px 
+	           35px 
+	           45px 
+	           70px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 25px;
+	    margin-left: -135px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 25px;
+	    margin-left: -132px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 30px;
+	    margin-left: -132px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   25px;
+	    margin-left: -135px;
+	}
+
+	.container #contact-form {
+	   width:  700px;
+	   height: 800px;
+	   margin-left: -20px;
 	}
 }
 
 @media only screen and (max-width: 767px) {
 
 .jumbotron2 {
-	    width: 550px;
-		height: 240px;
+	    
+		height: 350px;
 	}
 
 	.jumbotron2 img {
-		width: 555px;
-		height: 240px;
+		width: 712px;
+		height: 350px;
 	}
 
     .container table {
@@ -857,7 +1152,7 @@ textarea {
 
 	.flex-info {
 		width:  30px;
-		height: 45px;
+		height: 30px;
 		display: inline-block;
 	}
 
@@ -940,25 +1235,85 @@ textarea {
 	    margin-left: 10px;
 	}
 
+	.container .flex {
+	   margin-left: 90px;
+	}
+
+	.pflex {
+	   margin-left: -70px;
+	}
+
+	.container .flexer2 {
+	  width:  550px;
+	  height: auto;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;  
+	  margin-top: -1550px;
+	  margin-left: 30px;
+	  margin-right: 500px;
+	  padding: 45px 
+	           35px 
+	           45px 
+	           70px;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: 25px;
+	    margin-left: -107px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: 25px;
+	    margin-left: -105px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 30px;
+	    margin-left: -105px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   22px;
+	    margin-left: -110px;
+	}
+
+	.container #contact-form {
+	   width:  600px;
+	   height: 800px;
+	   margin-left: 30px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
-    .conntainer table {
-      margin-left: 100px;
+    .jumbotron .conntainer table {
+      /*margin-left: -20px;*/
       overflow-x: hidden;
     }
 
     .container table a {
 		padding-right: 5px;
 		padding-left: 5px;
-		font-size: 12px;
+		font-size: 10px;
     }
+
+    .jumbotron2 {
+		height: 300px;
+	}
+
+	.jumbotron2 img {
+		width: 545px;
+		height: 300px;
+	}
 
     .container #arrow {
 	  margin-left: 230px;
 	}
 
 	#flexer {
+		display: block;
 		padding-left: -200px;
 	}
 
@@ -977,8 +1332,8 @@ textarea {
 		display: inline-block;
 	}
 
-	.flex {
-	   margin-left: 25px;
+	.container .flex {
+	   margin-left: 28px;
 	}
 
 	.flex h1 {
@@ -1090,151 +1445,58 @@ textarea {
 	    margin-left: 10px;
 	}
 
-}
-
-@media only screen and (max-width: 480px) {
-	.jumbotron h1{
-		font-size: 20px;
-	}
-
-    .conntainer table {
-      /*margin-left: -220px;*/
-      overflow-x: hidden;
-    }
-
-    .container table a {
-		padding-right: 4px;
-		padding-left:  4px;
-		font-size: 10px;
-    }
-
-     .container #arrow {
-	    margin-left: 170px;
-	}
-
 	.jumbotron9 {
-		height: 1200px;
+		height: auto;
 	}
 
-	.flex {
-	   margin-left: 65px;
+	.container .flexer2 {
+	  width:  470px;
+	  height: auto;
+	  margin-left: 10px;
+	  margin-right: 500px;
+	  padding: 35px 
+	           15px 
+	           35px 
+	           40px;
 	}
 
-	.flex h1 {
-		font-size:   30px;
-		line-height: 45px;
+	.flexer2 #icon-phone {
+		margin-top: 25px;
+	    margin-left: -95px;
 	}
 
-	.flex {
-		width: 150px;
+	.flexer2 #icon-fax {
+		margin-top: 25px;
+	    margin-left: -90px;
 	}
 
-	.jumbotron7 {
-		height: 1700px;
+	.flexer2 #icon-envelope {
+		margin-top: 30px;
+	    margin-left: -90px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   22px;
+	    margin-left: -95px;
 	}
 
-	.container .pflex {
-		width:       380px;
-		height:      auto;
-    }
-
-    .pflex p {
-		-moz-column-count1; /* Firefox */
-	    -webkit-column-count:1;  Safari and Chrome 
-	    column-count:1;
-	    text-align: justify;
-	    font-size: 16px;
-		color: white;
+	.container #contact-form {
+	   width:  475px;
+	   height: 800px;
+	   margin-left: 10px;
 	}
 
-	.flexer2 {
-		width: 150px;
-		margin-left: 100px;
-		display: block;
-	}
-
-	.flexer2 h4 {
-		font-size: 16px;
-		color: #D14841;
-		/*line-height: 16px;*/
-		/*letter-spacing: 4px;*/
-	}
-
-	.jumbotron12 h1 {
-		font-family: 'Lato';
-		font-size: 30px;
-		line-height: 50px;
-		color: #181818;
-		text-align: center;
-	}
-
-	
-	#icon1 {
-	    -webkit-flex: icon1;
-	            flex: icon1;
-	    width: 80px;
-		height:80px;
-		margin-right: 50px;
-	}
-
-	#icon2 {
-	    -webkit-flex: icon1;
-	            flex: icon1;
-	    width: 80px;
-		height:80px;
-		margin-right: 50px;
-	}
-
-	#icon3 {
-	    -webkit-flex: icon1;
-	            flex: icon1;
-	    width: 80px;
-		height:80px;
-		margin-right: 50px;
-	}
-
-	#icon4 {
-	    -webkit-flex: icon1;
-	            flex: icon1;
-	    width: 80px;
-		height:80px;
-		margin-right: 50px;
-	}
-
-	#caption1 {
-    -webkit-flex: caption1;
-            flex: caption1;
-    margin-left: 0px;
-	}
-
-	#caption2 {
-	    -webkit-flex: caption2;
-	            flex: caption2;
-	    margin-left: 15px;
-	}
-
-	#caption3 {
-	    -webkit-flex: caption3;
-	            flex: caption3;
-	    margin-left: 10px;
-	}
-
-	#caption4 {
-	    -webkit-flex: caption4;
-	            flex: caption4;
-	    margin-left: 10px;
-	}
 }
 
 
 
 @media only screen and (max-width: 480px) {
+
 	.jumbotron h1{
 		font-size: 20px;
 	}
 
     .conntainer table {
-      /*margin-left: -220px;*/
+      display: block;
       overflow-x: hidden;
     }
 
@@ -1243,6 +1505,15 @@ textarea {
 		padding-left:  4px;
 		font-size: 10px;
     }
+
+    .jumbotron2 {
+		height: 300px;
+	}
+
+	.jumbotron2 img {
+		width: 425px;
+		height: 300px;
+	}
 
      .container #arrow {
 	    margin-left: 170px;
@@ -1336,6 +1607,64 @@ textarea {
 	            flex: caption4;
 	    margin-left: 10px;
 	}
+
+	.container .flexer2 {
+	  width:  350px;
+	  height: auto;
+	  margin-left:  10px;
+	  padding: 45px 
+	           15px 
+	           35px 
+	           40px;
+	  display: block;
+	}
+
+	.flexer2 #icon-phone {
+		margin-top: -90px;
+	    margin-left: 20px;
+	}
+
+	.flexer2 #icon-fax {
+		margin-top: -70px;
+	    margin-left: -90px;
+	}
+
+	.flexer2 #icon-envelope {
+		margin-top: 30px;
+	    margin-left: -90px;
+	}
+	.flexer2 #icon-clock {
+		margin-top:   22px;
+	    margin-left: -95px;
+	}
+
+	.container #contact-form {
+	   width:  350px;
+	   height: 800px;
+	   margin-left: 10px;
+	}
+
+	/*#icon1,
+	#icon2,
+	#icon3,
+	#icon4 {
+		display: none;
+	}
+
+	#caption1 h4,
+	#caption2 h4,
+	#caption3 h4,
+	#caption4 h4 {
+		display: none;
+	}
+
+	#caption1 p,
+	#caption2 p,
+	#caption3 p,
+	#caption4 p {
+		display: block;
+	}*/
+
 }
 
 
