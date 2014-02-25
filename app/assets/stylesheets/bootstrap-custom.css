@@ -713,6 +713,143 @@ textarea {
 *
 ***********************************/
 
+@media only screen and (max-width: 1921px) {
+
+	.jumbotron2 {
+		height: 720px;
+    }
+
+	.jumbotron2 img {
+		width: 1910px;
+		height: 715px;
+	}
+
+    .container table {
+     margin-left: 250px;
+    }
+
+    .container table a {
+		padding-right: 10px;
+		padding-left:  10px;
+    }
+
+	/*.container #arrow {
+	  margin-left: -830px;
+	}*/
+
+    .flex {
+	   margin-top: -70px;
+	   margin-left: 450px;
+	   -webkit-flex: flex1;
+	          flex:  flex1;
+	   width:   600px;
+	   padding: 35px;
+	   border: solid 3px green;
+	}
+
+	#flexer {
+		padding-left:   60px;
+        padding-right:  60px;
+	}
+
+	.flex {
+	   margin-left: 270px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1200px;
+	}
+
+    .pflex {
+		width:       800px;
+		height:      auto;
+		margin-left: 160px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 1442px) {
+
+	.jumbotron2 img {
+		width: 1470px;
+		height: 600px;
+	}
+
+    .container table {
+     margin-left: 250px;
+    }
+
+    .container table a {
+		padding-right: 10px;
+		padding-left:  10px;
+    }
+
+	/*.container #arrow {
+	  margin-left: -830px;
+	}*/
+
+	.jumbotron2 {
+		height: 600px;
+    }
+
+    .flex {
+	   margin-top: -70px;
+	   margin-left: 450px;
+	   -webkit-flex: flex1;
+	          flex:  flex1;
+	   width:   600px;
+	   padding: 35px;
+	   border: solid 3px green;
+	}
+
+	#flexer {
+		padding-left:   60px;
+        padding-right:  60px;
+	}
+
+	.flex {
+	   margin-left: 270px;
+	}
+
+	.flex h1 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+
+	.jumbotron7 {
+		height: 1200px;
+	}
+
+    .pflex {
+		width:       800px;
+		height:      auto;
+		margin-left: 160px;
+        -webkit-flex: pflex1;
+                flex: pflex1;
+	}
+
+	.container .pflex p {
+	    -moz-column-gap:    50px; /* Firefox */
+	    -webkit-column-gap: 50px; /* Safari and Chrome */
+	    column-gap:         50px;
+	    font-size: 16px;
+	}
+}
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1224px) {
 
 	.jumbotron2 img {
