@@ -361,7 +361,7 @@ table a:hover {
 }
 
 #flex-container {
-	width: 70px;
+	width:  70px;
 	height: 70px;
 	display: inline-block;
 }
@@ -390,7 +390,7 @@ table a:hover {
 }
 
 .divider {
-	height: 200px;
+	height:     200px;
 	margin-top: -15px;
 	margin-bottom: 100px;
 	font-family: 'Bank Gothic';
