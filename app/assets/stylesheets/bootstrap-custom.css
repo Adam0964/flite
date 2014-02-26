@@ -245,7 +245,7 @@ table a:hover {
 	-moz-column-count:2; /* Firefox */
     -webkit-column-count:2; /* Safari and Chrome */
     column-count:2;
-    -moz-column-gap:    50px;  Firefox 
+    -moz-column-gap:    50px;  /*Firefox */ 
     -webkit-column-gap: 50px; /* Safari and Chrome */
     column-gap:         50px;
     font-family: 'Helvetica';
