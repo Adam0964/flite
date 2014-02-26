@@ -3,9 +3,9 @@
 
 .jumbotron2
   %div 
-    = image_tag ('banner.png')
   .col-md-12 
-  %a{name: "flywithus"}
+    = image_tag ('banner.png')
+    %a{name: "flywithus"}
 
 .divider
   %div
@@ -37,19 +37,6 @@
   /       %a{href: "#slide3"}
   /         = image_tag ('slide3.jpg')
 
-.divider
-  %div
-  %a{name: "success"}
-  %h2 Sucess Stories
-
-.container
-  .row
-    #arrow
-      = image_tag ('down-arrow.png'), :size => '48x48'
-
-.jumbotron4
-  %div 
-  .col-md-12 
 
 .divider
   %div
@@ -120,27 +107,86 @@
   %div
   %a{name: "team"}
   %h2 Meet the Team
-
 .container
   .row
     #arrow
       = image_tag ('down-arrow.png'), :size => '48x48'
 
 .jumbotron13
-.container
-  .row
-    / .pflex
-    /   .flex1
-    /     #photo-container 
-    /       = image_tag ('pf-justin S.jpg'), :size => '300x300'
-    /       \&nbsp
-    /       %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
-    /       \&nbsp
-    /     %br
-    /   .flex2
-    /     #photo-container 
-    /       = image_tag ('pf-David R.jpg'), :size => '300x300'
-    /       %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+.pflex3
+  .container
+    .row
+      #flex-team
+        / %span
+        #photo-container 
+          = image_tag ('pf-justin.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-David R.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-Fritz L.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-Director.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          %br
+      %hr
+    .row
+      #flex-team
+        / %span
+        #photo-container 
+          = image_tag ('pf-Colin R.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          %br
+      %hr
+    .row
+      #flex-team
+        / %span
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+        #photo-container 
+          = image_tag ('pf-justin S.jpg'), :size => '300x300'
+          \&nbsp
+          %p Private FLITE offers a level of personalized service that is unrivaled, and competitive pricing
+          \&nbsp
+          %br
 
 .divider
   %div
@@ -263,6 +309,20 @@
       = image_tag ('down-arrow.png'), :size => '48x48'
  
 .jumbotron8
+  %div 
+  .col-md-12 
+
+.divider
+  %div
+  %a{name: "success"}
+  %h2 Sucess Stories
+
+.container
+  .row
+    #arrow
+      = image_tag ('down-arrow.png'), :size => '48x48'
+
+.jumbotron4
   %div 
   .col-md-12 
 

@@ -231,7 +231,7 @@ table a:hover {
 }
 
 .pflex2 {
-	margin-top: -900px;
+   margin-top: -900px;
    margin-left: -200px;
    -webkit-flex: pflex1;
            flex: pflex1;
@@ -257,10 +257,14 @@ table a:hover {
 #photo-container {
 	width:  200px;
 	height: 200px;
-	/*-webkit-border-radius: 50%;
-    -moz-border-radius:    50%;
-    border-radius:         50%;*/
-    border: solid 3px blue;
+	display: inline-block;
+	margin-right: 80px;
+	-webkit-border-radius: 8px;
+    -moz-border-radius:    8px;
+    border-radius:         8px;
+    border: solid 2px rgb(140, 140, 140);
+    box-shadow: 10px 10px 5px #888888;
+    /*border: solid 3px blue;*/
 	/*background-image: url(pf-David R.jpg);*/
 }
 
@@ -360,6 +364,16 @@ table a:hover {
 	display: inline-block;
 }
 
+#flex-team {
+	width: 1200px;
+	-webkit-flex: flex1;
+          flex: flex1;
+    /*border: solid 3px orange;*/
+    padding: 15px 15px 15px 85px;
+    /*background-color: rgb(241, 241, 241);*/
+   
+}
+
 .flex-info {
 	width: 50px;
     height:50px;
@@ -406,6 +420,12 @@ table a:hover {
 	height: 900px;
 	margin-top: -15px;
 	background-color: #fff;
+}
+
+.pflex3 {
+	margin-top:   -900px;
+	padding-bottom: 25px;
+	/*border: solid 5px yellow;*/
 }
 
 /*#left-side-background {
@@ -855,7 +875,7 @@ textarea {
 @media only screen and (min-width: 1200px) and (max-width: 1224px) {
 
 	.jumbotron2 img {
-		width: 1200px;
+		width: 1300px;
 		height: 600px;
 	}
 
