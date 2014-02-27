@@ -20,6 +20,39 @@ h2, h3 {
 	padding-top: 75px;
 }
 
+#text  {
+	width:  500px;
+	height: 230px;
+	/*margin-top: -1150px;*/
+	/*margin-right: 500px;*/
+	margin-left: 100px;
+	padding: 15px;
+	position: relative;
+	border: solid 1.8px #fff;
+	-webkit-border-radius: 7px;
+    -moz-border-radius:    7px;
+    border-radius:         7px;
+}
+
+#text p {
+	font-family: 'Helvetica neue';
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 2.3;
+	color: white; text-shadow: 
+	                           black 
+	                           0.1em 
+							   0.1em 
+							   0.2em;
+}
+
+/*#text h5 {
+	color: #aaa;*/
+	/*margin-left: 500px;
+	margin-right: 500px*/
+
+
 /*ul.icons-ul, 
 p, 
 address,
@@ -34,21 +67,32 @@ address {
 }*/
 
 .jumbotron {
-	height: 160px;
+	height: 630px;
 	margin-top: -15px;
+	background-color: rgb(15, 100, 193);
+}
+
+#jet-logo img {
+	margin-top: 30px;
+	/*margin-right: -1200px;*/
+	position: relative;
+	float: right;
+
 }
 
 table {
-	margin-top: -20px;
-	margin-left:  170px;
-	overflow-x: hidden;
+	margin-top:   160px;
+	margin-left:   120px;
+	position: relative;
+	/*overflow-x: hidden;*/
 }
 
 table a {
 	padding-right: 20px;
 	padding-left:  20px;
 	font-family: 'Bank Gothic';
-	color: #353535;
+	font-size: 16px;
+	color: #fff; /* #353535; */
 	text-decoration: none;
 }
 
@@ -67,10 +111,11 @@ table a:hover {
 	color: #005580;
 }*/
 
-.col-md-12 h1 {
+.jumbotron h1 {
 	padding-top: 45px;
+	margin-bottom: 80px;
 	font-family: 'Bank Gothic';
-	color: rgb(0, 66, 110);
+	color: #D14841;
 	letter-spacing: 7px;
 	text-align: center;
 }
@@ -92,7 +137,7 @@ table a:hover {
 	height: 1200px;
 }
 
-.jumbotron2 p {
+/*.jumbotron2 p {
 	margin-left: 500px;
 	margin-right: 500px;
 	padding-top: -240px;
@@ -102,7 +147,7 @@ table a:hover {
 	line-height: 2.3;
 	text-align: justify;
 }
-
+*/
 .jumbotron3 {
 	height: 800px;
 	margin-top: -15px;
@@ -264,7 +309,7 @@ table a:hover {
 	-webkit-border-radius: 8px;
     -moz-border-radius:    8px;
     border-radius:         8px;
-    border: solid 2px rgb(140, 140, 140);
+    border: solid 2px #F8F8F8 ;
     box-shadow: 10px 10px 5px #888888;
     /*border: solid 3px blue;*/
 	/*background-image: url(pf-David R.jpg);*/
