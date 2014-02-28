@@ -21,8 +21,8 @@ h2, h3 {
 }
 
 #text  {
-	width:  500px;
-	height: 230px;
+	width:  360px;
+	height: 300px;
 	/*margin-top: -1150px;*/
 	/*margin-right: 500px;*/
 	margin-left: 100px;
@@ -32,6 +32,7 @@ h2, h3 {
 	-webkit-border-radius: 7px;
     -moz-border-radius:    7px;
     border-radius:         7px;
+    float: left;
 }
 
 #text p {
@@ -47,24 +48,11 @@ h2, h3 {
 							   0.2em;*/
 }
 
-/*#text h5 {
-	color: #aaa;*/
-	/*margin-left: 500px;
-	margin-right: 500px*/
-
-
-/*ul.icons-ul, 
-p, 
-address,
-cite {
-	font-family: 'Lato', Serif;
-	font-size: 20px;
+.jumbotrona {
+	height: 100px;
+	margin-top: -15px;
+	background-color: rgb(124, 141, 255);
 }
-
-address {
-	padding-left:  1200px;
-	padding-right: 1200px;
-}*/
 
 .jumbotron {
 	height: 630px;
@@ -81,17 +69,16 @@ address {
 }
 
 table {
-	margin-top:   160px;
-	margin-left:   120px;
+	margin-top:    -30px;
+	margin-left:   200px;
 	position: relative;
-	/*overflow-x: hidden;*/
 }
 
 table a {
-	padding-right: 20px;
-	padding-left:  20px;
+	margin-left: 20px;
 	font-family: 'Bank Gothic';
 	font-size: 16px;
+	line-height: 18px;
 	color: #fff; /* #353535; */
 	text-decoration: none;
 }
@@ -501,9 +488,9 @@ table a:hover {
 
 /* footer */
 .jumbotron10 {
-	height: 100px;
+	height: 400px;
 	margin-top: -15px;
-	background-color: #15317E;
+	background-color: rgb(24, 24, 24); /*#15317E; */
 }
 
 .jumbotron10a {
@@ -857,12 +844,18 @@ textarea {
 	}
 
     .container table {
-     margin-left: 250px;
+    	margin-top: -50px;
+        margin-left: 200px;
     }
 
     .container table a {
 		padding-right: 10px;
 		padding-left:  10px;
+    }
+
+    #text {
+    	margin-top: 50px;
+    	margin-left: 20px;
     }
 
 	/*.container #arrow {
@@ -926,12 +919,25 @@ textarea {
 	}
 
     .container table {
-     margin-left: 250px;
+    	margin-top: -50px;
+        margin-left: 150px;
     }
 
     .container table a {
 		padding-right: 10px;
 		padding-left:  10px;
+		font-size: 14px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -150px;
+    	margin-left: 400px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
 	/*.container #arrow {
@@ -986,7 +992,7 @@ textarea {
 	}
 }
 
-@media only screen and (max-width: 1137px) {
+@media only screen and (min-width: 1126px) and (max-width: 1137px) {
 
 	.jumbotron2 img {
 		width: 1160px;
@@ -994,12 +1000,25 @@ textarea {
 	}
 
     .container table {
-     margin-left: 130px;
+    	margin-top: -50px;
+        margin-left: 80px;
     }
 
     .container table a {
 		padding-right: 10px;
 		padding-left:  10px;
+		font-size: 14px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -150px;
+    	margin-left: 400px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
 	.container #arrow {
@@ -1069,15 +1088,26 @@ textarea {
 		height: 550px;
 	}
 
-    .conntainer table {
-      margin-left: -1000px;
-      overflow-x: hidden;
+     .container table {
+    	margin-top: -50px;
+        margin-left: 100px;
     }
 
     .container table a {
-		padding-right: 4px;
-		padding-left:  4px;
-		font-size: 14px;
+		margin-right:  5px;
+		margin-left:  5px;
+		font-size: 12px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -145px;
+    	margin-left: 300px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
      .container #arrow {
@@ -1167,7 +1197,6 @@ textarea {
 	   height: 800px;
 	   margin-left: 50px;
 	}
-}
 
 }
 
@@ -1182,20 +1211,27 @@ textarea {
 		height: 550px;
 	}
 
-    .conntainer table {
-      margin-left: -1000px;
-      overflow-x: hidden;
+    .container table {
+    	margin-top: -50px;
+        margin-left: 100px;
     }
 
     .container table a {
-		padding-right: 4px;
-		padding-left:  4px;
+		margin-right:  5px;
+		/*padding-left:  10px;*/
 		font-size: 14px;
     }
 
-     .container #arrow {
-	  margin-left: 450px;
-	}
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -145px;
+    	margin-left: 300px;
+    }
+
+    #text p {
+    	font-size: 12px;
+    }
 
 	.container .flex {
 	   margin-left: 135px;
@@ -1288,10 +1324,25 @@ textarea {
     	font-size: 25px;
     }
 
+    .container table {
+	    margin-top: -250px;
+        margin-left: 20px;
+    }
+
     .container table a {
-		padding-right: 7px;
-		padding-left:  7px;
-		font-size:     12px;
+		margin-right: 5px;
+		font-size: 12px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -80px;
+    	margin-left: 250px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
 	.jumbotron7 {
@@ -1306,6 +1357,7 @@ textarea {
 	    margin-left: 25px;
 	    padding:     30px;
 	}
+
 	.pflex p {
 		-moz-column-count:   1; /* Firefox */
 	    -webkit-column-count:1; /* Safari and Chrome */
@@ -1363,12 +1415,26 @@ textarea {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
     .container table {
-	    margin-left: 50px;
+	    margin-top: -450px;
+        margin-left: 20px;
     }
 
     .container table a {
-		padding-right: 10px;
-		padding-left:  10px;
+		/*padding-right: 10px;*/
+		/*padding-left:  10px;*/
+		margin-right: 5px;
+		font-size: 12px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -115px;
+    	margin-left: 250px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
     .jumbotron2 {
@@ -1515,17 +1581,26 @@ textarea {
 	}
 
     .container table {
-	    margin-left: 50px;
-    }
-
-    .conntainer table {
-      margin-left: -220px;
+	    margin-top: -400px;
+        margin-left: 20px;
     }
 
     .container table a {
-		padding-right: 5px;
-		padding-left: 5px;
+		/*padding-right: 10px;*/
+		/*padding-left:  10px;*/
+		margin-right: 5px;
 		font-size: 12px;
+    }
+
+    #text {
+    	width: 350px;
+    	height: auto;
+    	margin-top: -60px;
+    	margin-left: 150px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
      .container #arrow {
@@ -2082,15 +2157,25 @@ textarea {
 		font-size: 20px;
 	}
 
-    .conntainer table {
-      display: block;
-      overflow-x: hidden;
+    .container table {
+	    margin-top: -280px;
+        margin-left: 10px;
     }
 
     .container table a {
-		padding-right: 4px;
-		padding-left:  4px;
-		font-size: 10px;
+		margin-right: -4px;
+		font-size: 8px;
+    }
+
+    #text {
+    	width: 300px;
+    	height: auto;
+    	margin-top: 50px;
+    	margin-left: 50px;
+    }
+
+    #text p {
+    	font-size: 12px;
     }
 
     .jumbotron2 {
