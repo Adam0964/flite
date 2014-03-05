@@ -1437,7 +1437,7 @@ textarea {
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 979px) {
+@media only screen and (max-width: 979px) {
 
     .container table {
 	    margin-top: -450px;
@@ -1612,7 +1612,7 @@ textarea {
 
     .container table a {
 		margin-right: 5px;
-		font-size: 12px;
+		font-size: 11px;
     }
 
     #text {
@@ -1769,18 +1769,43 @@ textarea {
 	   margin-left: 20px;
 	}
 
+	.flexer2 #icon-phone img {
+		margin-top:  -5px;
+	    margin-left: -5px;
+	}
+
+	.flexer2 #icon-fax img {
+		margin-top:  -5px;
+	    margin-left: -7px;
+	}
+
+	.flexer2 #icon-envelope img {
+		margin-top:  -7px;
+	    margin-left: -7px;
+	}
+	.flexer2 #icon-clock img {
+		margin-top:  -4px;
+	    margin-left: -7px;
+	}
+
 }
 
 @media only screen and (max-width: 640px) {
-    .jumbotron .conntainer table {
-      /*margin-left: -20px;*/
-      overflow-x: hidden;
+
+    .jumbotron .container table {
+    	margin-top: -350px;
+        overflow-x: hidden;
     }
 
     .container table a {
 		padding-right: 5px;
-		padding-left: 5px;
-		font-size: 10px;
+		padding-left:  5px;
+		font-size:     10px;
+    }
+
+    .jumbotron  #text {
+    	margin-top:  8px;
+    	margin-left: 100px;
     }
 
     .jumbotron2 {
@@ -1788,7 +1813,7 @@ textarea {
 	}
 
 	.jumbotron2 img {
-		width: 585px;
+		width:  585px;
 		height: 300px;
 	}
 
@@ -1993,9 +2018,9 @@ textarea {
 
 @media only screen and (max-width: 600px) {
 
-    .conntainer table {
-      margin-top: -200px;
-      margin-left: -520px;
+    .jumbotron .container table {
+      margin-top: -330px;
+      /*margin-left: -5px;*/
       overflow-x: hidden;
     }
 
@@ -2128,15 +2153,15 @@ textarea {
 	}
 
 	#caption1 {
-    -webkit-flex: caption1;
-            flex: caption1;
-    margin-left: 0px;
+	    -webkit-flex: caption1;
+	            flex: caption1;
+	    margin-left: 0px;
 	}
 
 	#caption2 {
 	    -webkit-flex: caption2;
 	            flex: caption2;
-	    margin-left: 15px;
+	    margin-left: 10px;
 	}
 
 	#caption3 {
@@ -2151,19 +2176,26 @@ textarea {
 	    margin-left: 10px;
 	}
 
+	#caption1,
+	#caption2,
+	#caption3,
+	#caption4 {
+        padding-left: 20px;
+	}
+
 	.jumbotron9 {
 		height: auto;
 	}
 
 	.container .flexer2 {
-	  width:  470px;
-	  height: auto;
-	  margin-left: 10px;
-	  margin-right: 500px;
-	  padding: 35px 
-	           15px 
-	           35px 
-	           40px;
+		width:  470px;
+		height: auto;
+		margin-left:   10px;
+		margin-right: 500px;
+		padding: 35px 
+		         15px 
+		         35px 
+		         40px;
 	}
 
 	/*.flexer2 #icon-phone {
@@ -2192,13 +2224,13 @@ textarea {
 	}*/
 
 	.flexer2 #icon-phone img {
-		margin-top: -3px;
+		margin-top: -4px;
 	    margin-left: 9px;
 	}
 
 	.flexer2 #icon-fax img {
-		margin-top: -3px;
-	    margin-left: 9px;
+		margin-top: -4px;
+	    margin-left: 8px;
 	}
 
 	.flexer2 #icon-envelope img {
@@ -2220,7 +2252,7 @@ textarea {
 		font-size: 20px;
 	}
 
-    .container table {
+    .jumbotron .container table {
 	    margin-top: -280px;
         margin-left: 10px;
     }
@@ -2230,7 +2262,7 @@ textarea {
 		font-size: 8px;
     }
 
-    #text {
+    .jumbotron #text {
     	width: 300px;
     	height: auto;
     	margin-top: 50px;
