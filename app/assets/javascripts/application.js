@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require startstop-slider
 //= require SmoothScroll
+//= require startstop-slider
 //= require slippry
 //= require bootstrap
 //= require turbolinks

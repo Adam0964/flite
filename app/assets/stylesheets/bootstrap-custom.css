@@ -20,6 +20,18 @@ h2, h3 {
 	padding-top: 75px;
 }
 
+#arrow:hover {
+    -webkit-transform:  rotate(180deg) ;
+    -webkit-transition: all 0.5s linear;
+    -moz-transform:     rotate(180deg) ;
+    -moz-transition:    all 0.5s linear;
+    -o-transform:       rotate(180deg) ;
+    -o-transition:      all 0.5s linear;
+    transform:          rotate(180deg) ;
+    transition:         all 0.5s linear;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 #text  {
 	width:  360px;
 	height: 300px;
@@ -42,7 +54,7 @@ h2, h3 {
 	text-align: center;
 	line-height: 2.3;
 	/*color: white; text-shadow: 
-	                           black 
+	                           black ƒ
 	                           0.1em 
 							   0.1em 
 							   0.2em;*/
