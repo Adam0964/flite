@@ -47,9 +47,14 @@ h2, h3 {
     float: left;
 }
 
+#text h5 {
+	text-align: center;
+	color: #fff;
+}
+
 #text p {
 	font-family: 'Helvetica neue';
-	font-size: 18px;
+	font-size: 16px;
 	color: #fff;
 	text-align: center;
 	line-height: 2.3;
@@ -604,9 +609,96 @@ table a:hover {
    padding: 25px;
    font-family: 'Lato';
    border: solid 1.8px rgb(199, 199, 199);
-   -webkit-border-radius: 7px;
-   -moz-border-radius:    7px;
-   border-radius:         7px;
+   -webkit-border-radius: 7px 7px 0 0;
+   -moz-border-radius:    7px 7px 0 0;
+   border-radius:         7px 7px 0 0;
+}
+
+.social-container {
+	width: 987px;
+	height: 200px;
+	/*margin-top: -1px;*/
+	margin-left: 100px;
+	margin-right: -25px;
+	background-color: rgb(137, 0, 54);
+	-webkit-border-radius:  0 0 7px 7px;
+    -moz-border-radius:     0 0 7px 7px;
+	border-radius:          0 0 7px 7px;
+}
+
+.social-box {
+	position: relative;
+	width:  550px;
+	height: auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	/*margin-top: -1550px;*/
+	margin-left: 200px;
+	/*margin-right: 500px;*/
+	padding: 25px 
+}
+
+#face-box1 {
+	-webkit-flex: flex1;
+            flex: flex1;
+    width: 100px;
+    height: 25px;
+    padding: 10px 5px;
+    border: solid 3px #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius:    7px;
+	border-radius:         7px;
+}
+
+#twit-box2 {
+	-webkit-flex: flex2;
+            flex: flex2;
+    width: 100px;
+    height: 25px;
+    padding: 10px 5px;
+    margin-left: 50px;
+    border: solid 3px #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius:    7px;
+	border-radius:         7px;
+}
+
+#goog-box3 {
+	-webkit-flex: flex3;
+            flex: flex3;
+    width: 100px;
+    height: 25px;
+    padding: 10px 5px;
+    margin-left: 50px;
+    border: solid 3px #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius:    7px;
+	border-radius:         7px;
+}
+
+#link-box4{
+	-webkit-flex: flex3;
+            flex: flex3;
+    width: 100px;
+    height: 25px;
+    padding: 10px 5px;
+    margin-left: 50px;
+    border: solid 3px #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius:    7px;
+	border-radius:         7px;
+}
+
+#face-box1,
+#twit-box2,
+#goog-box3,
+#link-box4 p {
+   text-align: center;
+   font-size: 14px;
+   color: #fff;
 }
 
 #icon1 {
