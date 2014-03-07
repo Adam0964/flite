@@ -1244,6 +1244,15 @@ textarea {
 	#contact-form {
 		margin-left: -20px;
 	}
+
+	.social-container {
+		/*width:  855px;*/
+	    margin-left: -20px;
+	}
+
+	.social-box {
+	    margin-left: 180px;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1367,6 +1376,15 @@ textarea {
 	   margin-left: 50px;
 	}
 
+	.social-container {
+		width:  855px;
+	    margin-left: 50px;
+	}
+
+	.social-box {
+	    margin-left: 110px;
+	}
+
 }
 
 @media only screen and (max-width: 980px) {
@@ -1485,6 +1503,15 @@ textarea {
 	   height: 800px;
 	   margin-left: 50px;
 	}
+
+	.social-container {
+		width:  855px;
+	    margin-left: 50px;
+	}
+
+	.social-box {
+	    margin-left: 110px;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -1578,6 +1605,15 @@ textarea {
 	   width:  700px;
 	   height: 800px;
 	   margin-left: -20px;
+	}
+
+	.social-container {
+		width:  752px;
+	    margin-left: -20px;
+	}
+
+	.social-box {
+	    margin-left: 80px;
 	}
 }
 
@@ -1732,6 +1768,15 @@ textarea {
 	   width:  700px;
 	   height: 800px;
 	   margin-left: -20px;
+	}
+
+	.social-container {
+		width:  752px;
+	    margin-left: -20px;
+	}
+
+	.social-box {
+	    margin-left: 80px;
 	}
 
 
@@ -1930,6 +1975,15 @@ textarea {
 	.flexer2 #icon-clock img {
 		margin-top:  -4px;
 	    margin-left: -7px;
+	}
+
+	.social-container {
+		width:  652px;
+	    margin-left: 20px;
+	}
+
+	.social-box {
+	    margin-left: 30px;
 	}
 
 }
@@ -2155,6 +2209,36 @@ textarea {
 	.flexer2 #icon-clock img {
 		margin-top: -3px;
 	    margin-left: 8px;
+	}
+
+	.social-container {
+		width:  526px;
+	    margin-left: 10px;
+	}
+
+	.social-box {
+	    margin-left: 2px;
+	}
+
+	#txt-box {
+		width: 76px;
+		padding-right: 3px;
+		padding-left:  3px;
+	}
+
+	#social-point {
+	   top:  54px;
+	}
+
+	#txt-box p {
+		font-size: 11px;
+	}
+
+	#face-box1,
+	#twit-box2,
+	#goog-box3,
+	#link-box4 {
+		width: 70px;
 	}
 
 }
@@ -2569,6 +2653,37 @@ textarea {
 	   height: 800px;
 	   margin-left: 10px;
 	}
+
+	.social-container {
+		width:  402px;
+	    margin-left: 10px;
+	}
+
+	.social-box {
+	    margin-left: 10px;
+	}
+
+	#txt-box {
+		width: 46px;
+		padding-right: 3px;
+		padding-left:  3px;
+	}
+
+	#social-point {
+	   top:  39px;
+	}
+
+	#txt-box p {
+		font-size: 8px;
+	}
+
+	#face-box1,
+	#twit-box2,
+	#goog-box3,
+	#link-box4 {
+		width: 40px;
+	}
+
 
 	/*#icon1,
 	#icon2,
