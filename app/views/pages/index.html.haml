@@ -447,13 +447,26 @@
   .social-container
     .social-box
       #face-box1
-        %p FaceBook
+        #txt-box 
+          %p Likes
+        #social-point
+        = link_to image_tag ('face.png'), :size => '100x100'
       #twit-box2
-        %p Twitter
+        #txt-box 
+          %p Followers
+        #social-point
+        = link_to image_tag ('twit.png'),  :size => '100x100'
       #goog-box3
-        %p Google+
+        #txt-box 
+          %p g+
+        #social-point
+        = link_to image_tag ('goog.png'),  :size => '100x100'
       #link-box4
-        %p LinkedIn
+        #txt-box 
+          %p Connections
+        #social-point
+        = link_to image_tag ('in.png'),    :size => '100x100'
+
     
   / .flexer2
   /   %div

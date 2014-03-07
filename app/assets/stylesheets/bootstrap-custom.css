@@ -13,6 +13,10 @@ body p {
 	font-family: 'Helvetica neue';
 }
 
+body a, img {
+	cursor: pointer;
+}
+
 h2, h3 {
 	font-family: 'Lato', Serif;
 	color: #D14841;
@@ -616,8 +620,7 @@ table a:hover {
 
 .social-container {
 	width: 987px;
-	height: 200px;
-	/*margin-top: -1px;*/
+	height: 250px;
 	margin-left: 100px;
 	margin-right: -25px;
 	background-color: rgb(137, 0, 54);
@@ -635,61 +638,98 @@ table a:hover {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;  
-	/*margin-top: -1550px;*/
 	margin-left: 200px;
-	/*margin-right: 500px;*/
 	padding: 25px 
+}
+
+.social-box img {
+	margin-top: 35px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+	border-radius:         3px;
+	
+}
+
+#social-point {
+	border-top:    10px solid transparent ;
+	border-bottom: 10px solid transparent;
+	border-right:  10px solid #fff;
+	top: 62px;
+	left: 2px;
+	position: relative;
+	-webkit-transform:  rotate(270deg) ;
+    -moz-transform:     rotate(270deg) ;
+    -o-transform:       rotate(270deg) ;
+    transform:          rotate(270deg) ;
 }
 
 #face-box1 {
 	-webkit-flex: flex1;
             flex: flex1;
-    width: 100px;
-    height: 25px;
+    width:  100px;
+    height:  55px;
     padding: 10px 5px;
-    border: solid 3px #fff;
+    border: solid 1.5px #fff;
     -webkit-border-radius: 7px;
     -moz-border-radius:    7px;
 	border-radius:         7px;
+	background: #fff;
 }
 
 #twit-box2 {
 	-webkit-flex: flex2;
             flex: flex2;
     width: 100px;
-    height: 25px;
+    height: 55px;
     padding: 10px 5px;
     margin-left: 50px;
-    border: solid 3px #fff;
+    border: solid 1.5px #fff;
     -webkit-border-radius: 7px;
     -moz-border-radius:    7px;
 	border-radius:         7px;
+	background: #fff;
 }
 
 #goog-box3 {
 	-webkit-flex: flex3;
             flex: flex3;
     width: 100px;
-    height: 25px;
+    height: 55px;
     padding: 10px 5px;
     margin-left: 50px;
-    border: solid 3px #fff;
+    border: solid 1.5px #fff;
     -webkit-border-radius: 7px;
     -moz-border-radius:    7px;
 	border-radius:         7px;
+	background: #fff;
 }
 
 #link-box4{
 	-webkit-flex: flex3;
             flex: flex3;
     width: 100px;
-    height: 25px;
+    height: 55px;
     padding: 10px 5px;
     margin-left: 50px;
-    border: solid 3px #fff;
+    border: solid 1.5px #fff;
     -webkit-border-radius: 7px;
     -moz-border-radius:    7px;
 	border-radius:         7px;
+	background: #fff;
+}
+
+#txt-box {
+	width: 100px;
+	height: 30px;
+	top:  -11px;
+	left: -6px;
+	position: relative;
+	padding-top: 7px;
+    background-color: rgb(115, 158, 58);
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius:    7px 7px 0 0;
+	border-radius:         7px 7px 0 0;
+	/*background: #fff;*/
 }
 
 #face-box1,
@@ -698,7 +738,7 @@ table a:hover {
 #link-box4 p {
    text-align: center;
    font-size: 14px;
-   color: #fff;
+   color: rgb(0, 75, 183);
 }
 
 #icon1 {
