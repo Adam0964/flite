@@ -728,18 +728,24 @@ table a:hover {
    margin-right: 500px;
    padding: 25px;
    font-family: 'Lato';
-   border: solid 1.8px rgb(199, 199, 199);
+   border-top: solid 1.8px rgb(199, 199, 199);
+   border-right: solid 1.8px rgb(199, 199, 199);
+   border-left: solid 1.8px rgb(199, 199, 199);
    -webkit-border-radius: 7px 7px 0 0;
    -moz-border-radius:    7px 7px 0 0;
    border-radius:         7px 7px 0 0;
 }
 
 .social-container {
-	width: 987px;
+	width: 985px;
 	height: 250px;
 	margin-left: 100px;
 	margin-right: -25px;
-	background-color: rgb(137, 0, 54);
+	border-left: solid 1.8px rgb(199, 199, 199);
+	border-right: solid 1.8px rgb(199, 199, 199);
+	border-bottom: solid 1.8px rgb(199, 199, 199);
+	background-color:rgb(242, 242, 242);
+	/*background-color: rgb(137, 0, 54);*/
 	-webkit-border-radius:  0 0 7px 7px;
     -moz-border-radius:     0 0 7px 7px;
 	border-radius:          0 0 7px 7px;
