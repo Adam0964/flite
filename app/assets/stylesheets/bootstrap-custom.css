@@ -307,22 +307,6 @@ table a:hover {
 	color: white;
 }
 
-#photo-container {
-	width:  200px;
-	height: 200px;
-	display: inline-block;
-	margin-right: 30px;
-	margin-bottom: 20px;
-	padding: 30px;
-	-webkit-border-radius: 8px;
-    -moz-border-radius:    8px;
-    border-radius:         8px;
-    border: solid 2px #F8F8F8 ;
-    box-shadow: 10px 10px 5px #888888;
-    /*border: solid 3px blue;*/
-	/*background-image: url(pf-David R.jpg);*/
-}
-
 .flex h1 {
 	/*word-break: break-all;*/
 	font-size: 77px;
@@ -420,12 +404,159 @@ table a:hover {
 }
 
 #flex-team {
-	width: 1200px;
+	width: 1350px;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;  
+    /*border: solid 3px orange;*/
+    padding: 0px;
+    margin-left: -50px;
+    /*padding: 15px 15px 35px 35px;*/
+    /*background-color: rgb(241, 241, 241);*/
+}
+
+#photo-container1 img {
 	-webkit-flex: flex1;
             flex: flex1;
-    /*border: solid 3px orange;*/
-    padding: 15px 15px 35px 35px;
-    /*background-color: rgb(241, 241, 241);*/
+	width:  230px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container2 {
+	-webkit-flex: flex2;
+            flex: flex2;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(234, 0, 31);
+}
+
+#photo-container3 img {
+	-webkit-flex: flex3;
+            flex: flex3;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container4 {
+	-webkit-flex: flex4;
+            flex: flex4;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(200, 50, 47);
+}
+
+#photo-container5 img {
+	-webkit-flex: flex5;
+            flex: flex5;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container6 {
+	-webkit-flex: flex6;
+            flex: flex6;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(231, 232, 235);
+}
+
+#photo-container7 img {
+	-webkit-flex: flex7;
+            flex: flex7;
+	width:  230px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container8 {
+	-webkit-flex: flex8;
+            flex: flex8;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(119, 0, 40);
+}
+
+#caption-container2 p {
+	margin: 40px;
+	color: #fff;
+}
+
+#caption-container4 p {
+	margin: 40px;
+	color: #aaa;
+}
+
+#caption-container6 p {
+	margin: 40px;
+	color: #aaa;
+}
+
+
+#photo-container9 img {
+	-webkit-flex: flex9;
+            flex: flex9;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container10 {
+	-webkit-flex: flex10;
+            flex: flex10;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(97, 135, 49);
+}
+
+#photo-container11 img {
+	-webkit-flex: flex11;
+            flex: flex11;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container12 {
+	-webkit-flex: flex12;
+            flex: flex12;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(0, 83, 166);
+}
+
+#caption-container2 p {
+	margin: 40px;
+	color: #fff;
+}
+
+#caption-container4 p {
+	margin: 40px;
+	color: #aaa;
+}
+
+#caption-container6 p {
+	margin: 40px;
+	color: #aaa;
+}
+
+#caption-container8 p {
+	margin: 40px;
+	color: #fff;
+}
+
+#caption-container10 p {
+	margin: 40px;
+	color: #aaa;
+}
+
+#caption-container12 p {
+	margin: 40px;
+	color: #aaa;
 }
 
 .flex-info {
@@ -738,6 +869,7 @@ table a:hover {
 #link-box4 p {
    text-align: center;
    font-size: 14px;
+   font-style: italic;
    color: rgb(0, 75, 183);
 }
 
