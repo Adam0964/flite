@@ -420,7 +420,7 @@ table a:hover {
 #photo-container1 img {
 	-webkit-flex: flex1;
             flex: flex1;
-	width:  230px;
+	width:  200px;
 	height: 200px;
 	position: relative;
 }
@@ -468,7 +468,7 @@ table a:hover {
 #photo-container7 img {
 	-webkit-flex: flex7;
             flex: flex7;
-	width:  230px;
+	width:  200px;
 	height: 200px;
 	position: relative;
 }
@@ -480,22 +480,6 @@ table a:hover {
 	height: 200px;
 	background-color: rgb(119, 0, 40);
 }
-
-#caption-container2 p {
-	margin: 40px;
-	color: #fff;
-}
-
-#caption-container4 p {
-	margin: 40px;
-	color: #aaa;
-}
-
-#caption-container6 p {
-	margin: 40px;
-	color: #aaa;
-}
-
 
 #photo-container9 img {
 	-webkit-flex: flex9;
@@ -529,6 +513,7 @@ table a:hover {
 	background-color: rgb(0, 83, 166);
 }
 
+/* Text */
 #caption-container2 p {
 	margin: 40px;
 	color: #fff;
