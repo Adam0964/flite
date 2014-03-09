@@ -1,0 +1,9 @@
+%h2 Get in touch
+= simple_form_for @contact, :html => {:class => 'well span10' } do |f|
+= f.input :name,  :required => true, :autofocus => true
+= f.input :email, :required => true
+%br
+%br
+= f.input :message, :as => :text, :required => false, :input_html => {:id => "message", :class => "input-xlarge span7", :rows => "10"}
+= f.button :submit, 'Send message', :class => 'btn btn-primary'
+

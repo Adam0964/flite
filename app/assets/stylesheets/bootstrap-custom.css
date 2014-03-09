@@ -1,8 +1,8 @@
 /* **********************************************************************
 *
-*  flietStylesheet
+*  flite Stylesheet
 *
-*   Kodefuge, Inc 01/05/2014
+*   Author: Kodefuge, Inc 01/05/2014
 *
 **************************************************************************/
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 body p {
-	font-family: 'Helvetica neue';
+	font-family: 'Roboto';
 }
 
 body a, img {
@@ -53,11 +53,12 @@ h2, h3 {
 
 #text h5 {
 	text-align: center;
+	font-family: 'Roboto';
 	color: #fff;
 }
 
 #text p {
-	font-family: 'Helvetica neue';
+	font-family: 'Roboto';
 	font-size: 16px;
 	color: #fff;
 	text-align: center;
@@ -222,11 +223,6 @@ table a:hover {
 	padding:     15px;
 }
 
-.jumbotron7 p {
-	
-}
-
-
 .jumbotron8 {
 	height:     800px;
 	margin-top: -15px;
@@ -270,7 +266,7 @@ table a:hover {
    width:  600px;
    padding: 35px;
    text-align: center;
-   border: solid 3px red;
+   /*border: solid 3px red;*/
 }
 
 .pflex {
@@ -280,7 +276,7 @@ table a:hover {
    width:  1550px;
    height: auto;
    padding: 35px;
-   border: solid 3px green;
+   /*border: solid 3px green;*/
 }
 
 .pflex2 {
@@ -301,7 +297,7 @@ table a:hover {
     -moz-column-gap:    50px;  /*Firefox */ 
     -webkit-column-gap: 50px; /* Safari and Chrome */
     column-gap:         50px;
-    font-family: 'Helvetica';
+    font-family: 'Roboto';
     text-align: justify;
     font-size: 16px;
 	color: white;
@@ -343,7 +339,7 @@ table a:hover {
   flex-direction: row;
   margin-left:  auto;
   font-family: 'Lato';
-  border: solid  3px green;
+  /*border: solid  3px green;*/
   padding-top:   25px;
   padding-left:  200px;
   padding-right: 200px;
@@ -356,7 +352,7 @@ table a:hover {
 .flex1 {
   -webkit-flex: flex1;
           flex: flex1;
-  border: solid 3px red;
+  /*border: solid 3px red;*/
   /*width: 800px;*/
   /*padding-right: 50px;*/
 }
@@ -365,21 +361,21 @@ table a:hover {
           flex: flex2;
   /*width: 900px;*/
   /*padding-right: 50px;*/
-  border: solid 3px red;
+  /*border: solid 3px red;*/
 }
 .flex3 {
   -webkit-flex: flex3;
           flex: flex3;
   /*width: 900px;*/
   /*padding-right: 50px;*/
-  border: solid 3px red;
+  /*border: solid 3px red;*/
 }
 .flex4 {
   -webkit-flex: flex4;
           flex: flex4;
   /*width: 900px;*/
   /*padding-right: 50px;*/
-  border: solid 3px red;
+  /*border: solid 3px red;*/
 }
 
 .flex5 {
@@ -387,14 +383,14 @@ table a:hover {
           flex: flex5;
   /*width: 900px;*/
   /*padding-right: 50px;*/
-  border: solid 3px red;
+  /*border: solid 3px red;*/
 }
 .flex6 {
   -webkit-flex: flex6;
           flex: flex6;
  /* width: 900px;*/
  /* padding-right: 50px;*/
- border: solid 3px red;
+ /*border: solid 3px red;*/
 }
 
 #flex-container {
@@ -417,6 +413,18 @@ table a:hover {
     /*background-color: rgb(241, 241, 241);*/
 }
 
+/*#caption-container2:hover {
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale   (1.2);
+    -o-transform: scale     (1.2);
+    transform: scale        (1.2);
+    -webkit-transition:     height 0.35s ease;
+    -moz-transition:        height 0.35s ease;
+    -ms-transition:         height 0.35s ease;
+    -o-transition:          height 0.35s ease;
+    transition:             height 0.35s ease;
+}*/
+
 #photo-container1 img {
 	-webkit-flex: flex1;
             flex: flex1;
@@ -429,7 +437,7 @@ table a:hover {
 	-webkit-flex: flex2;
             flex: flex2;
 	width:  250px;
-	height: 200px;
+	height: 190px;
 	background-color: rgb(234, 0, 31);
 }
 
@@ -445,8 +453,9 @@ table a:hover {
 	-webkit-flex: flex4;
             flex: flex4;
 	width:  250px;
-	height: 200px;
-	background-color: rgb(200, 50, 47);
+	height: 190px;
+	background-color: rgb(97, 135, 49);
+	/*background-color: rgb(200, 50, 47);*/
 }
 
 #photo-container5 img {
@@ -461,7 +470,7 @@ table a:hover {
 	-webkit-flex: flex6;
             flex: flex6;
 	width:  250px;
-	height: 200px;
+	height: 190px;
 	background-color: rgb(231, 232, 235);
 }
 
@@ -477,8 +486,8 @@ table a:hover {
 	-webkit-flex: flex8;
             flex: flex8;
 	width:  250px;
-	height: 200px;
-	background-color: rgb(119, 0, 40);
+	height: 190px;
+	background-color: rgb(157, 104, 71);
 }
 
 #photo-container9 img {
@@ -493,8 +502,9 @@ table a:hover {
 	-webkit-flex: flex10;
             flex: flex10;
 	width:  250px;
-	height: 200px;
-	background-color: rgb(97, 135, 49);
+	height: 190px;
+	background-color: rgb(200, 50, 47);
+	/*background-color: rgb(97, 135, 49);*/
 }
 
 #photo-container11 img {
@@ -509,39 +519,118 @@ table a:hover {
 	-webkit-flex: flex12;
             flex: flex12;
 	width:  250px;
-	height: 200px;
+	height: 190px;
 	background-color: rgb(0, 83, 166);
+}
+
+/* third row */
+
+#photo-container13 img {
+	-webkit-flex: flex13;
+            flex: flex13;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container14 {
+	-webkit-flex: flex14;
+            flex: flex14;
+	width:  250px;
+	height: 190px;
+	background-color: rgb(252, 178, 14);
+}
+
+#photo-container15 img {
+	-webkit-flex: flex15;
+            flex: flex15;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container16 {
+	-webkit-flex: flex16;
+            flex: flex16;
+	width:  250px;
+	height: 190px;
+	background-color: rgb(20, 47, 189);
+}
+
+#photo-container17 img {
+	-webkit-flex: flex17;
+            flex: flex17;
+	width:  200px;
+	height: 200px;
+	position: relative;
+}
+
+#caption-container18 {
+	-webkit-flex: flex18;
+            flex: flex18;
+	width:  250px;
+	height: 200px;
+	background-color: rgb(29, 29, 29);
 }
 
 /* Text */
 #caption-container2 p {
-	margin: 40px;
+	margin: 30px;
 	color: #fff;
 }
 
 #caption-container4 p {
-	margin: 40px;
+	margin: 30px;
 	color: #aaa;
 }
 
 #caption-container6 p {
-	margin: 40px;
+	margin: 30px;
 	color: #aaa;
 }
 
 #caption-container8 p {
-	margin: 40px;
+	margin: 30px;
 	color: #fff;
 }
 
 #caption-container10 p {
-	margin: 40px;
+	margin: 30px;
 	color: #aaa;
 }
 
 #caption-container12 p {
-	margin: 40px;
+	margin: 30px;
 	color: #aaa;
+}
+
+#caption-container14 p {
+	margin: 30px;
+	color: #aaa;
+}
+
+#caption-container16 p {
+	margin: 30px;
+	color: #aaa;
+}
+
+#caption-container18 p {
+	margin: 30px;
+	color: #aaa;
+}
+
+#caption-container2,
+#caption-container4,
+#caption-container6,
+#caption-container8,
+#caption-container10,
+#caption-container12,
+#caption-container14,
+#caption-container16,
+#caption-container18 h4 {
+	padding-top: 10px;
+	color: #aaa;
+	text-align: center;
 }
 
 .flex-info {
@@ -2685,6 +2774,26 @@ textarea {
 		display: none;
 		/*line-height: 16px;*/
 		/*letter-spacing: 4px;*/
+	}
+
+	#flex-team {
+	    width: 410px;
+	    margin-left: 5px;
+	    display: block;
+	    border: solid 3px blue;
+	}
+
+	#photo-container1 {
+		width:  200px;
+		height: 200px;
+		/*border: solid 3px red;*/
+	}
+
+	#caption-container2 {
+		width:  200px;
+		height: 200px;
+		margin-top: -40px;
+		/*border: solid 3px green;*/
 	}
 
 	.jumbotron12 h1 {
