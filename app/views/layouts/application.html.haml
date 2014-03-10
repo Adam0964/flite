@@ -40,19 +40,18 @@
 
     = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"
 
+%body
+
+    = render :partial => 'layouts/header'
+    = yield
+    = render :partial => 'layouts/footer'
+
     / :javascript
     /      $('#arrow, img').on('click', function(e) {
     /          $('html, body').animate({
     /              scrollTop: 0
     /          }, 5000);
     /      });
-
-
-%body
-
-    = render :partial => 'layouts/header'
-    = yield
-    = render :partial => 'layouts/footer'
 
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
