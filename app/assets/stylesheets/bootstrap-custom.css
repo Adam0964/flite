@@ -1765,6 +1765,17 @@ textarea {
 	    margin-left: 110px;
 	}
 
+	#foot-box {
+		margin-left:  40px;
+	}
+
+	.testim1,
+	.testim2 {
+		width: 200px;
+		height: 30px;
+		margin-left: 35px;
+	}
+
 }
 
 @media only screen and (max-width: 980px) {
@@ -1892,6 +1903,13 @@ textarea {
 	.social-box {
 	    margin-left: 110px;
 	}
+
+	.testim1,
+	.testim2 {
+		width: 200px;
+		height: 30px;
+		margin-left: 25px;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -1994,6 +2012,17 @@ textarea {
 
 	.social-box {
 	    margin-left: 80px;
+	}
+
+	.container #foot-box {
+		margin-left:  20px;
+	}
+
+	#foot-box .testim1,
+	#foot-box .testim2 {
+		width: 170px;
+		height: 30px;
+		margin-left: 15px;
 	}
 }
 
@@ -2157,6 +2186,17 @@ textarea {
 
 	.social-box {
 	    margin-left: 80px;
+	}
+
+	#foot-box {
+		margin-left:  -50px;
+	}
+
+	.testim1,
+	.testim2 {
+		width: 200px;
+		height: 30px;
+		margin-left: 25px;
 	}
 
 
@@ -2364,6 +2404,17 @@ textarea {
 
 	.social-box {
 	    margin-left: 30px;
+	}
+
+	#foot-box {
+		margin-left:  20px;
+	}
+
+	.testim1,
+	.testim2 {
+		width: 170px;
+		height: 30px;
+		margin-left: 15px;
 	}
 
 }
@@ -2621,6 +2672,17 @@ textarea {
 		width: 70px;
 	}
 
+	.container #foot-box {
+		margin-left:  10px;
+	}
+
+	#foot-box .testim1,
+	#foot-box .testim2 {
+		width: 130px;
+		height: 30px;
+		margin-left: 15px;
+	}
+
 }
 
 
@@ -2848,6 +2910,17 @@ textarea {
 	.flexer2 #icon-clock img {
 		margin-top: -3px;
 	    margin-left: 9px;
+	}
+
+	.container #foot-box {
+		margin-left:  10px;
+	}
+
+	#foot-box .testim1,
+	#foot-box .testim2 {
+		width: 120px;
+		height: 30px;
+		margin-left: 10px;
 	}
 
 }
@@ -3082,6 +3155,18 @@ textarea {
 	#goog-box3,
 	#link-box4 {
 		width: 40px;
+	}
+
+	#foot-box {
+		display: block;
+		height: 350px;
+	}
+
+	.testim1,
+	.testim2 {
+		width: 200px;
+		height: 30px;
+		margin-left: 50px;
 	}
 
 
