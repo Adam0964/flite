@@ -402,7 +402,7 @@ table a:hover {
 }
 
 #flex-team {
-	width: 1350px;
+	width: 1600px;
 	display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -410,7 +410,7 @@ table a:hover {
     display: flex;  
     /*border: solid 3px orange;*/
     padding: 0px;
-    margin-left: -40px;
+    margin-left: -185px;
     /*padding: 15px 15px 35px 35px;*/
     /*background-color: rgb(241, 241, 241);*/
 }
@@ -430,32 +430,32 @@ table a:hover {
 #photo-container1 img {
 	-webkit-flex: flex1;
             flex: flex1;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container2 {
 	-webkit-flex: flex2;
             flex: flex2;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(234, 0, 31);
 }
 
 #photo-container3 img {
 	-webkit-flex: flex3;
             flex: flex3;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container4 {
 	-webkit-flex: flex4;
             flex: flex4;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(97, 135, 49);
 	/*background-color: rgb(200, 50, 47);*/
 }
@@ -463,48 +463,48 @@ table a:hover {
 #photo-container5 img {
 	-webkit-flex: flex5;
             flex: flex5;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container6 {
 	-webkit-flex: flex6;
             flex: flex6;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(231, 232, 235);
 }
 
 #photo-container7 img {
 	-webkit-flex: flex7;
             flex: flex7;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container8 {
 	-webkit-flex: flex8;
             flex: flex8;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(157, 104, 71);
 }
 
 #photo-container9 img {
 	-webkit-flex: flex9;
             flex: flex9;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container10 {
 	-webkit-flex: flex10;
             flex: flex10;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(200, 50, 47);
 	/*background-color: rgb(97, 135, 49);*/
 }
@@ -512,16 +512,16 @@ table a:hover {
 #photo-container11 img {
 	-webkit-flex: flex11;
             flex: flex11;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container12 {
 	-webkit-flex: flex12;
             flex: flex12;
-	width:  250px;
-	height: 190px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(0, 83, 166);
 }
 
@@ -530,48 +530,50 @@ table a:hover {
 #photo-container13 img {
 	-webkit-flex: flex13;
             flex: flex13;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container14 {
 	-webkit-flex: flex14;
             flex: flex14;
-	width:  250px;
-	height: 190px;
-	background-color: rgb(252, 178, 14);
+	width:  600px;
+	height: 310px;
+	background-color: rgb(20, 47, 189);
+	/*background-color: rgb(252, 178, 14);*/
 }
 
 #photo-container15 img {
 	-webkit-flex: flex15;
             flex: flex15;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container16 {
 	-webkit-flex: flex16;
             flex: flex16;
-	width:  250px;
-	height: 190px;
-	background-color: rgb(20, 47, 189);
+	width:  600px;
+	height: 310px;
+	/*background-color: rgb(20, 47, 189);*/
+	background-color: rgb(252, 178, 14);
 }
 
 #photo-container17 img {
 	-webkit-flex: flex17;
             flex: flex17;
-	width:  200px;
-	height: 200px;
+	width:  400px;
+	height: 320px;
 	position: relative;
 }
 
 #caption-container18 {
 	-webkit-flex: flex18;
             flex: flex18;
-	width:  250px;
-	height: 200px;
+	width:  600px;
+	height: 310px;
 	background-color: rgb(29, 29, 29);
 }
 
