@@ -919,9 +919,6 @@ table a:hover {
   -webkit-border-radius: 7px;
   -moz-border-radius:    7px;
   border-radius:         7px;
-  /*align-items: center;*/
-  /*flex-flow: row;
-  writing-mode: horizontal-tb;*/
 }
 
 .flexer2 h4 {
