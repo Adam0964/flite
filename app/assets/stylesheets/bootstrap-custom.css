@@ -865,7 +865,7 @@ table a:hover {
 	background-color: #B8860B;
 }*/
 
-#arrow {
+.container #arrow {
   width: 80px;
   height:80px;
   margin-left: 575px;
