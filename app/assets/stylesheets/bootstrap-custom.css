@@ -865,10 +865,11 @@ table a:hover {
 	background-color: #B8860B;
 }*/
 
-.container #arrow {
+#arrow {
   width: 80px;
   height:80px;
-  margin-left: 575px;
+  margin-left: 50%;
+  /*margin-left: 575px;*/
   margin-top: -140px;
   text-align: center;
   position: relative;
@@ -3437,7 +3438,6 @@ textarea {
 	    width: 410px;
 	    margin-left: 5px;
 	    display: block;
-	    /*border: solid 3px blue;*/
 	}
 
 	#photo-container1,
@@ -3450,7 +3450,6 @@ textarea {
 	#photo-container15,
 	#photo-container17 {
 		display: none;
-		/*border: solid 3px red;*/
 	}
 
 	#caption-container2,
@@ -3467,7 +3466,6 @@ textarea {
 		height: 400px;
 		margin-top: -40px;
 		margin-left: 5px;
-		/*border: solid 3px green;*/
 	}
 
 	.jumbotron12 h1 {
@@ -3519,10 +3517,6 @@ textarea {
 	    margin-top: 35px;
 	    margin-left: 120px;
 	}
-
-	/*#caption1 p {
-		margin-top: 120px;
-	}*/
 
 	.container .flexer2 {
 	  width:  350px;
