@@ -262,7 +262,8 @@ table a:hover {
 
 .flex {
    margin-top:  -70px;
-   margin-left: 270px;
+   margin-left: 25%;
+   /*margin-left: 270px;*/
    -webkit-flex: flex1;
            flex: flex1;
    width:  600px;
