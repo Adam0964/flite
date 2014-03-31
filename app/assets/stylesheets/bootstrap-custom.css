@@ -411,6 +411,7 @@ table a:hover {
     /*border: solid 3px orange;*/
     padding: 0px;
     margin-left: -656px;
+    position: relative;
     /*padding: 15px 15px 35px 35px;*/
     /*background-color: rgb(241, 241, 241);*/
 }
@@ -663,7 +664,7 @@ table a:hover {
 }*/
 
 .jumbotron13 {
-	width: 100%;
+	width: 2540px;
 	height: 900px;
 	margin-top: -15px;
 	background-color: #fff;
