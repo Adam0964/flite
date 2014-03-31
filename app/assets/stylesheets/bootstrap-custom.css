@@ -267,18 +267,18 @@ table a:hover {
            flex: flex1;
    width:  600px;
    padding: 35px;
+   position: relative;
    text-align: center;
-   border: solid 3px red;
 }
 
 .pflex {
-   margin-left: -200px;
+   margin-left: -180px;
    -webkit-flex: pflex1;
            flex: pflex1;
    width:  1550px;
    height: auto;
+   position: relative;
    padding: 35px;
-   /*border: solid 3px green;*/
 }
 
 .pflex2 {
